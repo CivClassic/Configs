@@ -1,0 +1,31 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: true
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: false
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: true
+deny-enderpearl: true
+fill-autosave-frequency: 30
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: true
+force-minecraft-border: false
+worlds:
+  world:
+    x: 0.0
+    z: 0.0
+    radiusX: 13000
+    radiusZ: 13000
+    wrapping: false
+  world_the_end:
+    x: 0.0
+    z: 0.0
+    radiusX: 4200
+    radiusZ: 4200
+    wrapping: false
