@@ -1,0 +1,11 @@
+hide_enchants: true
+fill_lapis: true
+randomize_enchants: false
+xpmod: 0
+loot_mult: 1.5
+emerald_crafting: true
+block_natural_exp: true
+infinite_enchant: true
+exp_per_bottle: 10
+entities:
+  ENDER_DRAGON: 0.1
