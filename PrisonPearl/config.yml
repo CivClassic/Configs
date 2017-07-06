@@ -2,7 +2,7 @@ free_tppearl: true
 autofree_worldborder: true
 prison_musthotbar: true
 prison_stealing: true
-damagelog_min: 3
+damagelog_min: 1
 damagelog_ticks: 600
 summon_damage_radius: 20
 summon_damage_ticks: 20
@@ -16,9 +16,9 @@ alts:
 prison:
   reset_bed: false
   world: world_the_end
-  clearinventoryonsummon: false
+  clearinventoryonsummon: true
   ppreturn_kill: false
-  ppsummonpearls: false
+  ppsummonpearls: true
   motd: You are in prison, enjoy your stay!
   unloadTimerTicks: 1200
 ignore_feed:
@@ -28,7 +28,7 @@ ignore_feed:
   feed_delay: 0
 upkeep:
   resource: COAL_BLOCK
-  quantity: 1
+  quantity: 4
 database:
   mysql:
     username: ''
