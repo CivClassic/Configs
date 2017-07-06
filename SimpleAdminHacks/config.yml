@@ -1,0 +1,105 @@
+# Effectively Modern Humbug. For 1.10 ground up.
+
+configuration_file_version: 1
+
+debug: true
+broadcast_permission: simpleadmin.broadcast
+
+hacks:
+  Experimental:
+    enabled: true
+    combatspy: false
+    teleportspy: false
+    postteleport:
+      spy: false
+      count: 10
+  GameFeatures:
+    enabled: true
+    disablePotatoXP: false
+    elytra: off
+    chorus_fruit: off
+  GameFixes:
+    enabled: false
+    nether_bed_placement: off
+  GameTuning:
+    enabled: true
+    chunkLimits:
+      enabled: true
+      exceededMessage: '&9Limit reached for this chunk, you cannot place more of this type of block.'
+      tileEntities:
+        HOPPER: 16
+        PISTON_BASE: 8
+        PISTON_STICKY_BASE: 8
+        DISPENSER: 16
+        DROPPER: 16
+        REDSTONE_COMPARATOR: 12
+        FURNACE: 40
+        SLIME_BLOCK: 8
+        PISTON_EXTENSION: 8
+        PISTON_MOVING_PIECE: 8
+      exempt:
+      - Steve
+      - Alex
+    daytimeBed:
+      enabled: true
+      spawnSetMessage: '&bYour spawn has been set.'
+  CTAnnounce:
+    enabled: false
+    delay: 10000
+    message: '%Victim% was combat tagged by %Attacker%'
+    broadcast: [OP, CONSOLE]
+  NewfriendAssist:
+    enabled: true
+    announce: '&f%Player% is brand new!'
+    broadcast: [PERM, CONSOLE]
+    helptips: on
+    helptips_end: 20m
+    introkit:
+      enabled: true
+      contents:
+       - ==: org.bukkit.inventory.ItemStack
+         type: COOKIE
+         amount: 32
+         meta:
+           ==: ItemMeta
+           meta-type: UNSPECIFIC
+           display-name: 'Manna'
+           lore:
+            - "Gift from the Admins as you"
+            - "begin your journey on CivClassic"
+       - ==: org.bukkit.inventory.ItemStack
+         type: BED
+         amount: 1
+         meta:
+           ==: ItemMeta
+           meta-type: UNSPECIFIC
+           lore:
+            - "This world is unforgiving."
+            - "Be sure to get a good night's"
+            - "rest soon."
+  Introbook:
+    enabled: false
+    follow: true
+    contents:
+      title: Welcome, ${player}
+      author: TealNerd
+      pages:
+       - "   &3Welcome to CivClassic, ${player}!"
+  InvControl:
+    enabled: true
+  InvisibleFix:
+    enabled: true
+    ignoreOps: true
+    ignorePermission: sah.allowInvisible
+    # in ticks
+    recheckInterval: 500
+  ReinforcedChestBreak:
+    enabled: true
+    # in seconds
+    delay: 180
+    message: "&4%player% is raiding a chest at %x% %y% %z%."
+  SanityHack:
+    enabled: false
+    trackPlace: true
+    trackBreak: true
+    belowYLevel: 7
