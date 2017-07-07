@@ -526,7 +526,7 @@ factories:
         amount: 32
         name: Gearbox
         lore:
-          - Gear mechanism for a bastion
+          - Gear mechanism for bastion
       radar:
         material: COMPASS
         amount: 32
@@ -1437,7 +1437,7 @@ recipes:
         amount: 16
         name: Gearbox
         lore:
-          - Gear mechanism for a bastion
+          - Gear mechanism for bastion
       radar:
         material: COMPASS
         amount: 16
@@ -2794,7 +2794,7 @@ recipes:
         amount: 32
         name: Gearbox
         lore:
-          - Gear mechanism for a bastion
+          - Gear mechanism for bastion
       radar:
         material: COMPASS
         amount: 32
@@ -3163,7 +3163,7 @@ recipes:
         amount: 4
         name: Gearbox
         lore:
-          - Gear mechanism for a bastion
+          - Gear mechanism for bastion
       radar:
         material: COMPASS
         amount: 3
