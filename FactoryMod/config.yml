@@ -3480,7 +3480,7 @@ recipes:
     input:
       slime:
         material: SLIME_BALL
-        amount: 2
+        amount: 3
       ice:
         material: ICE
         amount: 32
