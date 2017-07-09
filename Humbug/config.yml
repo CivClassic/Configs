@@ -27,7 +27,7 @@ extra_magma_spawn_rate: 70000
 portal_extra_ghast_spawn_rate: 0.0
 portal_extra_wither_skele_spawn_rate: 0.0
 portal_pig_spawn_multiplier: 900000
-wither_skull_drop_rate: 0
+wither_skull_drop_rate: 20000
 ench_gold_app_edible: false
 ench_book_craftable: false
 cobble_from_lava: false
