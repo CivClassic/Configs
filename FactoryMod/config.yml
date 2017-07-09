@@ -4128,14 +4128,14 @@ recipes:
     input:
       chest:
         material: CHEST
-        amount: 64
+        amount: 128
       iron:
         material: IRON_INGOT
-        amount: 12
+        amount: 3
     output:
       crate:
         material: CHEST
-        amount: 64
+        amount: 128
         lore:
           - Crate
   make_mushroom_brown:
