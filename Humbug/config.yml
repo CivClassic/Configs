@@ -77,4 +77,3 @@ prevent_long_signs_in_chunks: true
 max_water_lava_height: 180
 loot_multiplier:
   creeper: 2
-  pig_zombie: 2
