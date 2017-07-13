@@ -75,3 +75,5 @@ prevent_long_signs_allornothing: true
 prevent_long_signs_cancelevent: false
 prevent_long_signs_in_chunks: true
 max_water_lava_height: 180
+loot_multiplier:
+  creeper: 2
