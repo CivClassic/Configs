@@ -4082,7 +4082,7 @@ recipes:
           - Crate
     factory: Compactor
   compact:
-    production_time: 2s
+    production_time: 1s
     fuel_consumption_intervall: 1s
     name: Compact
     type: COMPACT
@@ -4126,9 +4126,10 @@ recipes:
     name: Make Crates
     type: PRODUCTION
     input:
-      chest:
-        material: CHEST
-        amount: 128
+      planks:
+        material: PLANKS
+        amount: 1024
+        durability: -1
       iron:
         material: IRON_INGOT
         amount: 3
