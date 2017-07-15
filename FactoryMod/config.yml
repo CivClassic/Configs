@@ -4126,7 +4126,7 @@ recipes:
     name: Make Crates
     type: PRODUCTION
     input:
-      planks:
+      planks: 
         material: PLANKS
         amount: 1024
         durability: -1
@@ -4293,9 +4293,9 @@ recipes:
       iron:
         material: IRON_INGOT
         amount: 1
-    ouput:
+    output:
       plate:
-        material: TRAPDOOR
+        material: TRAP_DOOR
         amount: 1
   print_book:
     type: PRINTBOOK
@@ -4311,7 +4311,7 @@ recipes:
         amount: 1
     printingplate:
       plate:
-        material: TRAPDOOR
+        material: TRAP_DOOR
         amount: 1
   print_note:
     type: PRINTNOTE
@@ -4326,7 +4326,7 @@ recipes:
         amount: 5
     printingplate:
       plate:
-        material: TRAPDOOR
+        material: TRAP_DOOR
         amount: 1
   print_secure_note:
     type: PRINTNOTE
@@ -4341,7 +4341,7 @@ recipes:
         amount: 5
     printingplate:
       plate:
-        material: TRAPDOOR
+        material: TRAP_DOOR
         amount: 1
   crack_fossil:
     type: RANDOM
