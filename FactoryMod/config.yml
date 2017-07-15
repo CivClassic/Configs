@@ -4126,10 +4126,9 @@ recipes:
     name: Make Crates
     type: PRODUCTION
     input:
-      planks: 
-        material: WOOD
-        amount: 1024
-        durability: -1
+      chest: 
+        material: CHEST
+        amount: 128
       iron:
         material: IRON_INGOT
         amount: 3
