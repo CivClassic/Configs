@@ -3800,59 +3800,59 @@ recipes:
         material: GLASS_BOTTLE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       carrot:
         material: CARROT_ITEM
         amount: 96
         lore:
-          - Compacted item
+          - Compacted Item
       melon:
         material: MELON_BLOCK
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       cactus:
         material: CACTUS
         amount: 256
         lore:
-          - Compacted item
+          - Compacted Item
       rose:
         material: RED_ROSE
         amount: 8
         lore:
-          - Compacted item
+          - Compacted Item
       rotten_flesh:
         material: ROTTEN_FLESH
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       red_mushroom:
         material: RED_MUSHROOM
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       vine:
         material: VINE
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       bread:
         material: BREAD
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       sapling:
         material: SAPLING
         amount: 32
         durability: -1
         lore:
-          - Compacted item
+          - Compacted Item
     output:
       exp:
         material: EMERALD_BLOCK
         amount: 2
         lore:
-          - Compacted item
+          - Compacted Item
   adv_xp_2:
     production_time: 4s
     name: Make Exp 2
@@ -3862,58 +3862,58 @@ recipes:
         material: GLASS_BOTTLE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       nether_wart:
         material: NETHER_STALK
         amount: 64
         lore:
-          - Compacted item
+          - Compacted Item
       melon:
         material: MELON_BLOCK
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       sugar_cane:
         material: SUGAR_CANE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       yellow_flower:
         material: YELLOW_FLOWER
         amount: 16
         lore:
-          - Compacted item
+          - Compacted Item
       rotten_flesh:
         material: ROTTEN_FLESH
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       brown_mushroom:
         material: BROWN_MUSHROOM
         amount: 64
         lore:
-          - Compacted item
+          - Compacted Item
       vine:
         material: VINE
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       baked_potato:
         material: BAKED_POTATO
         amount: 256
         lore:
-          - Compacted item
+          - Compacted Item
       beetroot:
         material: BEETROOT
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
     output:
       exp:
         material: EMERALD_BLOCK
         amount: 2
         lore: 
-          - Compacted item
+          - Compacted Item
   adv_xp_3:
     production_time: 4s
     name: Make Exp 3
@@ -3923,60 +3923,60 @@ recipes:
         material: GLASS_BOTTLE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       wheat:
         material: WHEAT
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       cocoa:
         material: INK_SACK
         durability: 3
         amount: 16
         lore:
-          - Compacted item
+          - Compacted Item
       pumpkin:
         material: PUMPKIN
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       cactus:
         material: CACTUS
         amount: 256
         lore:
-          - Compacted item
+          - Compacted Item
       rose:
         material: RED_ROSE
         amount: 8
         lore:
-          - Compacted item
+          - Compacted Item
       spider_eye:
         material: SPIDER_EYE
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       red_mushroom:
         material: RED_MUSHROOM
         amount: 16
         lore:
-          - Compacted item
+          - Compacted Item
       grass:
         material: LONG_GRASS
         amount: 32
         durability: 1
         lore:
-          - Compacted item
+          - Compacted Item
       cooked_fish:
         material: COOKED_FISH
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
     output:
       exp:
         material: EMERALD_BLOCK
         amount: 2
         lore:
-          - Compacted item
+          - Compacted Item
   adv_xp_4:
     production_time: 4s
     name: Make Exp 4
@@ -3986,59 +3986,59 @@ recipes:
         material: GLASS_BOTTLE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       nether_wart:
         material: NETHER_STALK
         amount: 64
         lore:
-          - Compacted item
+          - Compacted Item
       pumpkin:
         material: PUMPKIN
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       sugar_cane:
         material: SUGAR_CANE
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
       yellow_flower:
         material: YELLOW_FLOWER
         amount: 16
         lore:
-          - Compacted item
+          - Compacted Item
       spider_eye:
         material: SPIDER_EYE
         amount: 32
         lore:
-          - Compacted item
+          - Compacted Item
       brown_mushroom:
         material: BROWN_MUSHROOM
         amount: 64
         lore:
-          - Compacted item
+          - Compacted Item
       grass:
         material: LONG_GRASS
         amount: 64
         durability: 1
         lore:
-          - Compacted item
+          - Compacted Item
       cookie:
         material: COOKIE
         amount: 256
         lore:
-          - Compacted item
+          - Compacted Item
       beetroot:
         material: BEETROOT
         amount: 128
         lore:
-          - Compacted item
+          - Compacted Item
     output:
       exp:
         material: EMERALD_BLOCK
         amount: 2
         lore:
-          - Compacted item
+          - Compacted Item
   upgrade_to_advanced_cauldron:
     production_time: 4s
     name: Upgrade to Advanced Cauldron
