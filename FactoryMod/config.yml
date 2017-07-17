@@ -3497,6 +3497,9 @@ recipes:
         name: Bio-Component
         lore:
           - Bio-Component for bastion
+      bucket:
+        material: BUCKET
+        amount: 1
   basic_xp_1:
     production_time: 4s
     name: Make Exp 1
