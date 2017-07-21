@@ -4345,6 +4345,19 @@ recipes:
       plate:
         material: TRAP_DOOR
         amount: 1
+  repair_printer:
+    forceInclude: true
+    type: REPAIR
+    name: Repair Printer
+    production_time: 4s
+    input:
+      ink:
+        material: INK_SACK
+        amount: 3
+      paper:
+        material: PAPER
+        amount: 6
+    health_gained: 10000
   crack_fossil:
     type: RANDOM
     name: Crack Fossil
