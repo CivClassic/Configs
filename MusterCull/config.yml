@@ -13,47 +13,47 @@ limits:
   range: 144
 - type: SKELETON
   culling: SPAWNER
-  limit: 10
+  limit: 20
   range: 144
 - type: SKELETON
   culling: SPAWN
-  limit: 10
+  limit: 20
   range: 144
 - type: SKELETON
   culling: DAMAGE
-  limit: 10
+  limit: 20
   range: 144
 - type: SPIDER
   culling: SPAWNER
-  limit: 10
+  limit: 20
   range: 144
 - type: SPIDER
   culling: SPAWN
-  limit: 10
+  limit: 20
   range: 144
 - type: SPIDER
   culling: DAMAGE
-  limit: 10
+  limit: 20
   range: 144
 - type: ZOMBIE
   culling: SPAWNER
-  limit: 10
+  limit: 20
   range: 144
 - type: ZOMBIE
   culling: SPAWN
-  limit: 10
+  limit: 20
   range: 144
 - type: ZOMBIE
   culling: DAMAGE
-  limit: 10
+  limit: 20
   range: 144
 - type: CAVE_SPIDER
   culling: SPAWNER
-  limit: 10
+  limit: 15
   range: 144
 - type: BLAZE
   culling: SPAWNER
-  limit: 10
+  limit: 15
   range: 144
 - type: SNOWMAN
   culling: DAMAGE
@@ -81,11 +81,11 @@ limits:
   range: 144
 - type: PIG_ZOMBIE
   culling: SPAWN
-  limit: 10
+  limit: 25
   range: 144
 - type: PIG_ZOMBIE
   culling: DAMAGE
-  limit: 5
+  limit: 25
   range: 144
 - type: PIG_ZOMBIE
   culling: SPAWNER
