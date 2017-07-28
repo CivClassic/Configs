@@ -45,7 +45,7 @@ drop_ores_as_ore: false
 obsidian_generator: false
 nerf_strength: true
 strength_multiplier: 3
-buff_health_pots: true
+buff_health_pots: false
 disable_chorus_fruit: true
 disable_elytra: true
 disable_bed_nether_end: true
