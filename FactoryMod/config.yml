@@ -3208,7 +3208,7 @@ recipes:
     input:
       iron:
         material: IRON_INGOT
-        amount: 256
+        amount: 248
     output:
       anvil:
         material: ANVIL
