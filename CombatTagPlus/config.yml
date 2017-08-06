@@ -2,7 +2,7 @@
 config-version: 25
 
 # The duration in seconds that both the attacker and victim should be tagged in combat.
-tag-duration: 30
+tag-duration: 20
 
 # This message is displayed to both the attacker and victim when newly tagged. Set this to '' to display nothing. {opponent} is the other player.
 tag-message: '&cYou have engaged in combat with &b{opponent}&c. Type &b/ct &cto check your timer.'
@@ -159,14 +159,13 @@ disabled-command-message: '&b{command}&c is disabled in combat.'
 
 # These commands are unusable by players who are combat tagged. Use '*' to blacklist all commands.
 command-blacklist:
-  - ''
+  - ctlog
+  - logout
+  - ctlogout
+  - ctpluslogout
 
 # These commands are exceptions to the blacklist.
 command-whitelist:
   - ct
   - ctplus
   - combattag
-  - ctlog
-  - logout
-  - ctlogout
-  - ctpluslogout
