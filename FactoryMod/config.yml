@@ -409,8 +409,6 @@ factories:
      - sapling_to_dark_oak
      - make_mushroom_brown
      - make_mushroom_red
-     - make_mushroom_stem
-     - make_mushroom_pores
      - repair_bio_lab
   carpentry:
     type: FCC
@@ -4180,31 +4178,6 @@ recipes:
       red_mushroom_block:
         material: HUGE_MUSHROOM_2
         durability: 14
-        amount: 16
-  make_mushroom_stem:
-    type: PRODUCTION
-    name: Make Stem Mushroom Blocks
-    production_time: 4s
-    input:
-      brown_mushroom:
-        material: BROWN_MUSHROOM
-        amount: 64
-    output:
-      stem_mushroom_block:
-        material: HUGE_MUSHROOM_1
-        durability: 10
-        amount: 16
-  make_mushroom_pores:
-    type: PRODUCTION
-    name: Make Pore Mushroom Blocks
-    production_time: 4s
-    input:
-      brown_mushroom:
-        material: BROWN_MUSHROOM
-        amount: 64
-    output:
-      pore_mushroom_block:
-        material: HUGE_MUSHROOM_1
         amount: 16
   bake_cookies:
     forceInclude: true
