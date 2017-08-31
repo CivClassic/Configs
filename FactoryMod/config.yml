@@ -400,6 +400,7 @@ factories:
      - dirt_to_grass
      - dirt_to_podzol
      - dirt_to_mycelium
+     - dirt_to_coarse_dirt
      - sapling_to_oak
      - sapling_to_spruce
      - sapling_to_birch
@@ -1522,6 +1523,19 @@ recipes:
       mycelium:
         material: MYCEL
         amount: 64
+  dirt_to_coarse_dirt:
+    production_time: 4s
+    name: Convert Dirt to Coarse Dirt
+    type: PRODUCTION
+    input:
+      dirt:
+        material: DIRT
+        amount: 64
+    output:
+      coarse_dirt:
+        material: DIRT
+        amount: 64
+        durability: 1
   sapling_to_oak:
     production_time: 4s
     name: Convert Sapling to Oak
