@@ -1522,6 +1522,7 @@ recipes:
         material: MYCEL
         amount: 64
   dirt_to_coarse_dirt:
+    forceInclude: true
     production_time: 4s
     name: Convert Dirt to Coarse Dirt
     type: PRODUCTION
