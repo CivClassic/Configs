@@ -153,8 +153,8 @@ chunk-entity-limiter:
 spawn-limiter:
   enabled: false
   interval: 15
-  mobs: 300
-  animals: 300
+  mobs: 4200
+  animals: 500
 
 #Meters your TPS, if it goes to low, run the commands you wrote below!
 # -- 'interval' is how often tps-meter will check the TPS
