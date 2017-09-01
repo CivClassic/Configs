@@ -419,6 +419,8 @@ factories:
         material: CHEST
         amount: 32
     recipes:
+     - make_chests_from_logs
+     - make_chests_from_logs2
      - make_fences
      - make_signs
      - make_ladders
@@ -2585,6 +2587,34 @@ recipes:
         material: CHEST
         amount: 32
     factory: Carpentry Factory
+  make_chests_from_logs:
+    forceInclude: true
+    production_time: 4s
+    name: Make Chests from Logs
+    type: PRODUCTION
+    input:
+      log:
+        material: LOG
+        durability: -1
+        amount: 128
+    output:
+      chest:
+        material: CHEST
+        amount: 64
+  make_chests_from_logs_2:
+    forceInclude: true
+    production_time: 4s
+    name: Make Chests from Logs 2
+    type: PRODUCTION
+    input:
+      log:
+        material: LOG_2
+        durability: -1
+        amount: 128
+    output:
+      chest:
+        material: CHEST
+        amount: 64
   make_fences:
     production_time: 4s
     name: Make Fences
