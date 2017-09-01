@@ -425,6 +425,7 @@ factories:
      - make_bookshelves
      - make_trapdoors
      - make_wood_doors
+     - make_fence_gates
      - make_casing
      - make_crates
      - repair_carpentry
@@ -2595,7 +2596,7 @@ recipes:
     output:
       fence:
         material: FENCE
-        amount: 256
+        amount: 128
   make_signs:
     production_time: 4s
     name: Make Signs
@@ -2619,7 +2620,7 @@ recipes:
     output:
       ladder:
         material: LADDER
-        amount: 256
+        amount: 128
   make_bookshelves:
     production_time: 4s
     name: Make Bookshelves
@@ -2634,7 +2635,7 @@ recipes:
     output:
       bookshelves:
         material: BOOKSHELF
-        amount: 64
+        amount: 20
   make_trapdoors:
     production_time: 4s
     name: Make Trap Doors
@@ -2658,7 +2659,20 @@ recipes:
     output:
       door:
         material: WOOD_DOOR
-        amount: 32
+        amount: 128
+  make_fence_gates:
+    forceInclude: true
+    production_time: 4s
+    name: Make Fence Gates
+    type: PRODUCTION
+    input:
+      chest:
+        material: CHEST
+        amount: 16
+    output:
+      fence_gate:
+        material: FENCE_GATE
+        amount: 64
   repair_carpentry:
     production_time: 4s
     name: Repair Factory
