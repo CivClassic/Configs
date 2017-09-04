@@ -3729,8 +3729,9 @@ recipes:
         material: LONG_GRASS
         amount: 32
         durability: 1
-      cooked_fish:
-        material: COOKED_FISH
+      sapling:
+        material: SAPLING
+        durability: -1
         amount: 32
     output:
       exp:
@@ -3764,7 +3765,7 @@ recipes:
         amount: 64
       grass:
         material: LONG_GRASS
-        amount: 64
+        amount: 32
         durability: 1
       cookie:
         material: COOKIE
@@ -3969,8 +3970,9 @@ recipes:
         durability: 1
         lore:
           - Compacted Item
-      cooked_fish:
-        material: COOKED_FISH
+      sapling:
+        material: SAPLING
+        durability: -1
         amount: 32
         lore:
           - Compacted Item
@@ -4022,7 +4024,7 @@ recipes:
           - Compacted Item
       grass:
         material: LONG_GRASS
-        amount: 64
+        amount: 32
         durability: 1
         lore:
           - Compacted Item
