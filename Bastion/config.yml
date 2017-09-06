@@ -31,7 +31,7 @@ bastions:
     warmupTime: 86400000
     erosionPerDay: 0
     regenPerDay: 0
-    blocksToErode: 1000
+    blocksToErode: -1
     placementCooldown: 2000
     destroyOnRemove: false
     onlyDirectDestroy: false
