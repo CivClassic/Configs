@@ -111,6 +111,7 @@ factories:
      - make_prismarine_bricks
      - make_dark_prismarine
      - make_sea_lantern
+     - make_redstone_lamp
      - pack_ice
      - repair_aesthetics
   dye_wool:
@@ -1312,6 +1313,21 @@ recipes:
     output:
       sea_lantern:
         material: SEA_LANTERN
+        amount: 32
+  make_redstone_lamp:
+    production_time: 4s
+    name: Make Redstone Lamp
+    type: PRODUCTION
+    input:
+      glowstone:
+        material: GLOWSTONE
+        amount: 32
+      redstone:
+        material: BLAZE_POWDER
+        amount: 8
+    output:
+      redstone_lamp:
+        material: REDSTONE_LAMP
         amount: 32
   make_diamond_helm:
     production_time: 4s
