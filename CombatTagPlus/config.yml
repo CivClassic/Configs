@@ -159,14 +159,10 @@ disabled-command-message: '&b{command}&c is disabled in combat.'
 
 # These commands are unusable by players who are combat tagged. Use '*' to blacklist all commands.
 command-blacklist:
-  - ''
-
-# These commands are exceptions to the blacklist.
-command-whitelist:
-  - ct
-  - ctplus
-  - combattag
-  - ctlog
   - logout
   - ctlogout
   - ctpluslogout
+
+# These commands are exceptions to the blacklist.
+command-whitelist:
+  - ''
