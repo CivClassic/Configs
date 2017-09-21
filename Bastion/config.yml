@@ -30,10 +30,10 @@ bastions:
     finalScaleFactor: 0.75
     warmupTime: 86400000
     erosionPerDay: 0
-    regenPerDay: 0
+    regenPerDay: 5
     blocksToErode: -1
     placementCooldown: 2000
-    destroyOnRemove: false
+    destroyOnRemove: true
     onlyDirectDestroy: false
     pearls:
       block: true
