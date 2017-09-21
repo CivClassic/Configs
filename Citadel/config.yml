@@ -72,21 +72,6 @@ reinforcements:
    type: FLYING_GLYPH
    speed: 0.5
    particleCount: 50
- instant_emerald:
-  material: EMERALD
-  requirements: 1
-  return: 1
-  percent_chance: 100
-  hit_points: 1500
-  mature_time: 0
-  acid_time: 2160
-  scale_amount: 1
-  lore:
-   - This reinforcement instantly matures
-  effect:
-   type: FLYING_GLYPH
-   speed: 0.5
-   particleCount: 50
 # Delete the comment char to use lore.  Three spaces are required 
 # after lore. You can add multiple lines by adding -
 #   - Some string representation required for this reinforcement.
