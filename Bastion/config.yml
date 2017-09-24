@@ -26,7 +26,7 @@ bastions:
     squarefield: true
     effectRadius: 10
     includeY: true
-    startScaleFactor: 100
+    startScaleFactor: 10
     finalScaleFactor: 0.75
     warmupTime: 86400000
     erosionPerDay: 0
