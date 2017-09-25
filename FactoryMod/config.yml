@@ -1315,6 +1315,7 @@ recipes:
         material: SEA_LANTERN
         amount: 32
   make_redstone_lamp:
+    forceInclude: true
     production_time: 4s
     name: Make Redstone Lamp
     type: PRODUCTION
