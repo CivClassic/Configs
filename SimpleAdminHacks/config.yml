@@ -51,7 +51,7 @@ hacks:
   NewfriendAssist:
     enabled: true
     announce: '&f%Player% is brand new!'
-    broadcast: [PERM, CONSOLE]
+    broadcast: [CONSOLE, ALL]
     helptips: on
     helptips_end: 20m
     introkit:
