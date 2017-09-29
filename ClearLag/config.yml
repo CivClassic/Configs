@@ -136,16 +136,42 @@ chunk-entity-limiter:
   enabled: true
   limit: 10
   entities:
-    - Squid
-    - Zombie
-    - Skeleton
-    - Creeper
-    - Chicken
-    - Pig
-    - Sheep
-    - Cow
-    - Horse
+    - bat
+    - blaze
+    - cave_spider
+    - chicken
+    - cow
+    - creeper
+    - donkey
+    - elder_guardian
+    - enderman
+    - endermite
+    - ghast
+    - guardian
+    - horse
+    - iron_golem
+    - magma_cube
+    - mule
+    - mushroom_cow
+    - ocelot
+    - pig
     - pig_zombie
+    - polar_bear
+    - rabbit
+    - sheep
+    - silverfish
+    - skeleton
+    - skeleton_horse
+    - slime
+    - snowman
+    - spider
+    - squid
+    - villager
+    - wither_skeleton
+    - wither
+    - wolf
+    - zombie
+    - zombie_villager
   # - Pig liveTime=100 <- This mob will be REMOVED if it's been alive for 100 ticks (5 seconds)
 
 #How many mobs should be allowed to spawn globally
@@ -267,20 +293,28 @@ command-remove:
   # - 222 <-This item-id will be ignored during removal!
   # - 265
   remove-entities:
+    - bat
     - blaze
     - cave_spider
-    - spider
-    - endermite
-    - enderman
-    - ghast
-    - zombie
-    - pig_zombie
-    - skeleton
     - creeper
-    - silverfish
-    - zombie_villager
-    - wither_skeleton
     - elder_guardian
+    - enderman
+    - endermite
+    - ghast
+    - guardian
+    - magma_cube
+    - pig_zombie
+    - polar_bear
+    - silverfish
+    - skeleton
+    - skeleton_horse
+    - slime
+    - spider
+    - squid
+    - wither_skeleton
+    - wither
+    - zombie
+    - zombie_villager
   # - cow <- This mob-type will be REMOVED during removal!
   # - MINECART_MOB_SPAWNER
   # - Pig liveTime=100 <- This mob will be REMOVED if it's been alive for 100 ticks (5 seconds)
