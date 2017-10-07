@@ -9,7 +9,8 @@ mysql:
 settings:
   defaultCuboidSize: 11
   logsPerPage: 10
-  daysFromLastAdminVisitForLoggedSnitchCulling: 21
+  # 2x the non-logging snitch culling value
+  daysFromLastAdminVisitForLoggedSnitchCulling: 28
   daysFromLastAdminVisitForNonLoggedSnitchCulling: 14  
   alertRateLimit: 70
   allowTriggeringLevers: true
