@@ -140,6 +140,7 @@ non_reinforceables:
  - CROPS
  - POTATO
  - NETHER_WARTS
+ - END_GATEWAY
 reset_player_state: 300
 enable_maturation: true
 # The max amount of reinforcements to keep loaded
