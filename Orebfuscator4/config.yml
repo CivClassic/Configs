@@ -57,6 +57,7 @@ Worlds:
       - JUKEBOX
       - NOTE_BLOCK
       - SPONGE
+      - GOLD_BLOCK
   Normal:
     Types:
     - NORMAL
