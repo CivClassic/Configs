@@ -1,4 +1,4 @@
-free_tppearl: true
+free_tppearl: false
 autofree_worldborder: true
 prison_musthotbar: true
 prison_stealing: true
