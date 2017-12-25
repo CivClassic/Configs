@@ -11,7 +11,7 @@ tweaks:
     #cooldown in ticks, 300 = 15 seconds
     cooldown: 300
     refundPearl: true
-    gravity: 0.06
+    gravity: 0.03
   PotionTweaks:
     drinkableDurationMultiplier: 1.0
     splashDurationMultiplier: 0.75
