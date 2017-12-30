@@ -55,6 +55,7 @@ factories:
      - upgrade_to_basic_cauldron
      - upgrade_to_compactor
      - upgrade_to_printer
+     - upgrade_to_concrete
      - repair_dirt_factory
   stone_smelter:
     type: FCC
@@ -638,6 +639,35 @@ factories:
       - print_note
       - print_secure_note
       - repair_printer
+  concrete_mixer:
+    type: FCC
+    name: Concrete Mixer
+    citadelBreakReduction: 1.0
+    setupcost:
+      sand:
+        material: SAND
+        amount: 256
+      gravel:
+        material: GRAVEL
+        amount: 256
+    recipes:
+     - mix_concrete_white
+     - mix_concrete_orange
+     - mix_concrete_magenta
+     - mix_concrete_light_blue
+     - mix_concrete_yellow
+     - mix_concrete_lime
+     - mix_concrete_pink
+     - mix_concrete_gray
+     - mix_concrete_light_gray
+     - mix_concrete_cyan
+     - mix_concrete_purple
+     - mix_concrete_blue
+     - mix_concrete_brown
+     - mix_concrete_green
+     - mix_concrete_red
+     - mix_concrete_black
+     - repair_mixer
 #RECIPES
 recipes:
   smelt_stone:
@@ -1047,6 +1077,19 @@ recipes:
         material: GLASS
         amount: 32
     factory: Glass Dying Factory
+  upgrade_to_concrete:
+    forceInclude: true
+    production_time: 4s
+    name: Upgrade to Concrete Mixer
+    type: UPGRADE
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+    factory: Concrete Mixer
   smelt_glass:
     type: PRODUCTION
     production_time: 4s
@@ -2470,6 +2513,326 @@ recipes:
         material: STAINED_GLASS
         durability: 15
         amount: 64
+  mix_conrete_white:
+    production_time: 4s
+    name: Mix White Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      white_dye:
+        material: INK_SACK
+        durability: 15
+        amount: 4
+    output:
+      white_concrete:
+        material: CONCRETE_POWDER
+        durability: 0
+        amount: 64
+  mix_conrete_orange:
+    production_time: 4s
+    name: Mix Orange Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      orange_dye:
+        material: INK_SACK
+        durability: 14
+        amount: 4
+    output:
+      orange_concrete:
+        material: CONCRETE_POWDER
+        durability: 1
+        amount: 64
+  mix_conrete_magenta:
+    production_time: 4s
+    name: Mix Magenta Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      magenta_dye:
+        material: INK_SACK
+        durability: 13
+        amount: 4
+    output:
+      magenta_concrete:
+        material: CONCRETE_POWDER
+        durability: 2
+        amount: 64
+  mix_conrete_light_blue:
+    production_time: 4s
+    name: Mix Light Blue Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      light_blue_dye:
+        material: INK_SACK
+        durability: 12
+        amount: 4
+    output:
+      light_blue_concrete:
+        material: CONCRETE_POWDER
+        durability: 3
+        amount: 64
+  mix_conrete_yellow:
+    production_time: 4s
+    name: Mix Yellow Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      yellow_dye:
+        material: INK_SACK
+        durability: 11
+        amount: 4
+    output:
+      yellow_concrete:
+        material: CONCRETE_POWDER
+        durability: 4
+        amount: 64
+  mix_conrete_lime:
+    production_time: 4s
+    name: Mix Lime Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      lime_dye:
+        material: INK_SACK
+        durability: 10
+        amount: 4
+    output:
+      lime_concrete:
+        material: CONCRETE_POWDER
+        durability: 5
+        amount: 64
+  mix_conrete_pink:
+    production_time: 4s
+    name: Mix Pink Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      pink_dye:
+        material: INK_SACK
+        durability: 9
+        amount: 4
+    output:
+      pink_concrete:
+        material: CONCRETE_POWDER
+        durability: 6
+        amount: 64
+  mix_conrete_gray:
+    production_time: 4s
+    name: Mix Gray Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      gray_dye:
+        material: INK_SACK
+        durability: 8
+        amount: 4
+    output:
+      gray_concrete:
+        material: CONCRETE_POWDER
+        durability: 7
+        amount: 64
+  mix_conrete_light_gray:
+    production_time: 4s
+    name: Mix Light Gray Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      light_gray_dye:
+        material: INK_SACK
+        durability: 7
+        amount: 4
+    output:
+      light_gray_concrete:
+        material: CONCRETE_POWDER
+        durability: 8
+        amount: 64
+  mix_conrete_cyan:
+    production_time: 4s
+    name: Mix Cyan Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      cyan_dye:
+        material: INK_SACK
+        durability: 6
+        amount: 4
+    output:
+      cyan_concrete:
+        material: CONCRETE_POWDER
+        durability: 9
+        amount: 64
+  mix_conrete_purple:
+    production_time: 4s
+    name: Mix Purple Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      purple_dye:
+        material: INK_SACK
+        durability: 5
+        amount: 4
+    output:
+      purple_concrete:
+        material: CONCRETE_POWDER
+        durability: 10
+        amount: 64
+  mix_conrete_blue:
+    production_time: 4s
+    name: Mix Blue Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      blue_dye:
+        material: INK_SACK
+        durability: 4
+        amount: 4
+    output:
+      blue_concrete:
+        material: CONCRETE_POWDER
+        durability: 11
+        amount: 64
+  mix_conrete_brown:
+    production_time: 4s
+    name: Mix Brown Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      brown_dye:
+        material: INK_SACK
+        durability: 3
+        amount: 4
+    output:
+      brown_concrete:
+        material: CONCRETE_POWDER
+        durability: 12
+        amount: 64
+  mix_conrete_green:
+    production_time: 4s
+    name: Mix Green Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      green_dye:
+        material: INK_SACK
+        durability: 2
+        amount: 4
+    output:
+      green_concrete:
+        material: CONCRETE_POWDER
+        durability: 13
+        amount: 64
+  mix_conrete_red:
+    production_time: 4s
+    name: Mix Red Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      red_dye:
+        material: INK_SACK
+        durability: 1
+        amount: 4
+    output:
+      red_concrete:
+        material: CONCRETE_POWDER
+        durability: 14
+        amount: 64
+  mix_conrete_black:
+    production_time: 4s
+    name: Mix Black Concrete
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      gravel:
+        material: GRAVEL
+        amount: 64
+      black_dye:
+        material: INK_SACK
+        durability: 0
+        amount: 4
+    output:
+      black_concrete:
+        material: CONCRETE_POWDER
+        durability: 15
+        amount: 64
   repair_dirt_factory:
     production_time: 4s
     name: Repair Factory
@@ -2535,6 +2898,18 @@ recipes:
     input:
       glass:
         material: GLASS
+        amount: 16
+    health_gained: 10000
+  repair_mixer:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      sand:
+        material: SAND
+        amount: 16
+      gravel:
+        material: GRAVEL
         amount: 16
     health_gained: 10000
   repair_grill:
