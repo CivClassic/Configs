@@ -24,7 +24,7 @@ hacks:
   GameTuning:
     enabled: true
     chunkLimits:
-      enabled: true
+      enabled: false
       exceededMessage: '&9Limit reached for this chunk, you cannot place more of this type of block.'
       tileEntities:
         HOPPER: 16
