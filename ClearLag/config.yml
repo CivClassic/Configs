@@ -168,7 +168,6 @@ chunk-entity-limiter:
     - squid
     - villager
     - wither_skeleton
-    - wither
     - wolf
     - zombie
     - zombie_villager
