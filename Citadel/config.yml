@@ -114,6 +114,7 @@ reinforcements:
   #hit_points: 60
 non_reinforceables:
  - BEDROCK
+ - END_GATEWAY
  - ENDER_PORTAL_FRAME
  - SAPLING
  - LONG_GRASS
