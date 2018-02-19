@@ -1,0 +1,17 @@
+mysql:
+  user: 'root'
+  password: 'asdfasdf'
+  host: localhost
+  database: mememana
+  port: 3306
+  poolsize: 10
+  connectionTimeout: 10000
+  idleTimout: 600000
+  maxLifetime: 7200000
+manaRotTime: 7776000000 # Milliseconds in 90 days
+manaGainTimeout: 79200 # Milliseconds in 22 hours
+maximumDailyMana: 10
+pearlRefillAmount: 
+  EXILE: 1
+  PRISON: 1
+pearlupgradeAmount: 10
