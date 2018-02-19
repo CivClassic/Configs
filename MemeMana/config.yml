@@ -8,8 +8,8 @@ mysql:
   connectionTimeout: 10000
   idleTimout: 600000
   maxLifetime: 7200000
-manaRotTime: 2592000000 # Milliseconds in 30 days
-manaGainTimeout: 79200 # Milliseconds in 22 hours
+manaRotTime: 30d
+manaGainTimeout: 22h
 maximumDailyMana: 10
 pearlRefillAmount: 
   EXILE: 168 # 1344 pearl hp units per week divided by 8 mana per week = 168 pearl hp units per mana
