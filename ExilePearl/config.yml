@@ -248,11 +248,11 @@ pearls:
   free_by_throwing: false
   free_teleport: true
   hotbar_needed: true
-  decay_interval_min: 60
-  decay_amount: 1
+  decay_interval_min: 15
+  decay_amount: 2 # 2 hp / 15 min = 8 hp / 1 hour
   decay_timeout_min: 10080
-  start_value: 12
-  max_value: 336
+  start_value: 96 # 12 hours * 8 per hour
+  max_value: 2688 # 336 hours (2 weeks) * 8 per hour
   repair_materials:
     PRISON:
     EXILE:
