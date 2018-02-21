@@ -571,6 +571,7 @@ factories:
      - basic_xp_2
      - basic_xp_3
      - basic_xp_4
+     - wither_skull
      - upgrade_to_intermediate_cauldron
      - repair_basic_cauldron
   intermediate_cauldron:
@@ -3621,6 +3622,20 @@ recipes:
       exp:
         material: EXP_BOTTLE
         amount: 42
+  wither_skull:
+    forceInclude: true
+    production_time: 2s
+    name: Forge Nether Star
+    type: PRODUCTION
+    input:
+      wither_skull:
+        material: SKULL_ITEM
+        durability: 1
+        amount: 3
+    output:
+      nether_star:
+        material: NETHER_STAR
+        amount: 1
   repair_basic_cauldron:
     production_time: 4s
     name: Repair Factory
