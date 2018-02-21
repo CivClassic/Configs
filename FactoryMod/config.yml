@@ -583,6 +583,7 @@ factories:
      - int_xp_2
      - int_xp_3
      - int_xp_4
+     - wither_skull
      - make_energizer
      - upgrade_to_advanced_cauldron
      - repair_intermediate_cauldron
@@ -595,6 +596,7 @@ factories:
      - adv_xp_2
      - adv_xp_3
      - adv_xp_4
+     - wither_skull
      - make_energizer
      - repair_advanced_cauldron
   compactor:
