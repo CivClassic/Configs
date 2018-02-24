@@ -63,7 +63,6 @@ hacks:
          meta:
            ==: ItemMeta
            meta-type: UNSPECIFIC
-           display-name: 'Manna'
            lore:
             - "Gift from the Admins as you"
             - "begin your journey on CivClassic"
