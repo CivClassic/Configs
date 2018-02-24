@@ -248,6 +248,8 @@ pearls:
   free_by_throwing: false
   free_teleport: true
   hotbar_needed: true
+  decay_interval_human: week
+  decay_interval_min_human: 10080
   decay_interval_min: 15
   decay_amount: 2 # 2 hp / 15 min = 8 hp / 1 hour
   decay_timeout_min: 10080
