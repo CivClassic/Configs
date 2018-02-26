@@ -555,6 +555,7 @@ factories:
           - Bio-Component for bastion
     recipes:
      - make_bastion
+     - make_city_bastion
      - repair_bastion
   basic_cauldron:
     type: FCC
@@ -1531,6 +1532,55 @@ recipes:
          - It will also block pearls when they land
          - As well as stop elytra
         amount: 16
+  make_city_bastion:
+    forceInclude: true
+    production_time: 1s
+    name: Make City Bastion
+    type: PRODUCTION
+    input:
+      casing:
+        material: ENDER_CHEST
+        amount: 1
+        name: Casing
+        lore:
+          - Casing for bastion
+      gearbox:
+        material: WATCH
+        amount: 1
+        name: Gearbox
+        lore:
+          - Gear mechanism for bastion
+      radar:
+        material: COMPASS
+        amount: 1
+        name: Radar
+        lore:
+          - Radar for detecting pearls
+      energizer:
+        material: EMERALD
+        amount: 1
+        name: Energizer
+        lore:
+          - Power source for bastion
+      refractor:
+        material: DIAMOND
+        amount: 1
+        name: Refractor
+        lore:
+          - Refractor for bastion
+      bio_compoent:
+        material: MAGMA_CREAM
+        amount: 1
+        name: Bio-Component
+        lore:
+          - Bio-Component for bastion
+    output:
+      city_bastion:
+        material: BONE_BLOCK
+        name: City Bastion
+        lore:
+          - City bastions block exiled players and reinforcements
+        amount: 4
   upgrade_to_bio_lab:
     production_time: 4s
     name: Upgrade to Bio Lab
