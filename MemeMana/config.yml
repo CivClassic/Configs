@@ -14,4 +14,4 @@ maximumDailyMana: 10
 pearlRefillAmount: 
   EXILE: 168 # 1344 pearl hp units per week divided by 8 mana per week = 168 pearl hp units per mana
   PRISON: 21 # 1344 pearl hp units per week divided by 64 mana per week = 21 pearl hp units per mana
-pearlupgradeAmount: 64
+pearlUpgradeAmount: 64
