@@ -294,35 +294,31 @@ damage_log:
   potion_damge: 6.0
 rules:
   pearl_radius: 1000
-  ignite: false
-  use_bed: false
-  use_bucket: false
-  fill_bucket: false
+  ignite: true
+  use_bed: true
+  use_bucket: true
+  fill_bucket: true
   milk_cows: true
-  use_potions: false
+  use_potions: true
   drink_brews: true
   fill_cauldron: true
-  throw_pearl: false
+  throw_pearl: true
   pvp: false
-  kill_pets: false
-  kill_mobs: false
+  kill_pets: true
+  kill_mobs: true
   enchant: true
   brew: true
   suicide: true
   mine_blocks: true
   collect_xp: true
   use_anvil: true
-  place_tnt: false
-  chat_local: false
-  create_bastion: false
+  place_tnt: true
+  chat_local: true
+  create_bastion: true
   damage_bastion: false
   enter_bastion: false
   damage_reinforcement: false
-  place_snitch: false
-  protected_mobs:
-  - Sheep
-  - Cow
-  - Pig
-  - Horse
+  place_snitch: true
+  protected_mobs: []
   disallowed_worlds:
 
