@@ -1331,7 +1331,7 @@ recipes:
         amount: 8
     output:
       redstone_lamp:
-        material: REDSTONE_LAMP
+        material: REDSTONE_LAMP_OFF
         amount: 32
   make_diamond_helm:
     production_time: 4s
