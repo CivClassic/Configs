@@ -313,7 +313,7 @@ rules:
   collect_xp: true
   use_anvil: true
   place_tnt: false
-  chat_local: false
+  chat_local: true
   create_bastion: false
   damage_bastion: false
   enter_bastion: false
