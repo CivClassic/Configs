@@ -83,7 +83,8 @@ hacks:
       title: Welcome ${player}!
       author: TangentialThreat
       pages:
-       - "&5Hello and welcome to Civclassic, &2${player}!\n\n   &1PrisonPearl&r\nDefeat other players while holding an ender pearl to trap them in the End until released. Stored pearls require coal blocks. Be warned that allies of pearled players may hunt you down..."
+       - "&5Hello and welcome to Civclassic, &2${player}!\n\n   &1ExilePearl&r\nKill other players while holding an ender pearl to banish them from the location their pearl is stored at. Stored pearls require Mana. Be warned that allies of pearled players may hunt you down..."
+       - "   &1MemeMana&r\nYou get Mana every day for logging in regularly. This is used to maintain an Exile Pearl and is very valuable to some players. Selling your Mana can be a good way to get some starting resources."
        - "   &1Namelayer&r\nManage groups! Type \"/nljg ! !\" without quotes for global chat and \"/g !\" to chat in the group. Type \"/nl\" to create and join groups. Many other features use groups – lock your doors so only your allies can enter with Citadel! Forge friendships!"
        - "   &1Citadel&r\nDon’t be the first two of the three little piggies! \"/ctf\" (usually followed by a group name) while holding stone (not cobble) and then place blocks. Your house is now 50x stronger!"
        - "Build a mighty fortress or anime pixel art! Type \"/ctdl\" to see a list of other reinforcement types. Learn about the Bastion plugin if your monastery requires a moat."

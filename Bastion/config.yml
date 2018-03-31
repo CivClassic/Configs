@@ -35,6 +35,7 @@ bastions:
     placementCooldown: 2000
     destroyOnRemove: true
     onlyDirectDestroy: false
+    blockReinforcements: true
     pearls:
       block: true
       blockMidair: false
@@ -42,11 +43,48 @@ bastions:
       requireMaturity: true
       consumeOnBlock: false
       damageFirstBastion: true
+      allowPearlingOut: true
     elytra:
       block: true
       scaleFactor: 0.25
       requireMaturity: true
       destroyOnBlock: false
       damageOnBlock: true
+      explodeOnBlock: true
+      explodeOnBlockStrength: 0
+  city:
+    block:
+      material: BONE_BLOCK
+      durability: 0
+      name: City Bastion
+      lore:
+        - City bastions block exiled players and reinforcements
+    squarefield: true
+    effectRadius: 50
+    includeY: true
+    startScaleFactor: 10
+    finalScaleFactor: 0.75
+    warmupTime: 172800000
+    erosionPerDay: 0
+    regenPerDay: 5
+    blocksToErode: -1
+    placementCooldown: 2000
+    destroyOnRemove: false
+    onlyDirectDestroy: true
+    blockReinforcements: true
+    pearls:
+      block: false
+      blockMidair: false
+      scaleFactor: 1
+      requireMaturity: true
+      consumeOnBlock: true
+      damageFirstBastion: true
+      allowPearlingOut: true
+    elytra:
+      block: true
+      scaleFactor: 0.25
+      requireMaturity: true
+      destroyOnBlock: true
+      damageFirstBastion: true
       explodeOnBlock: true
       explodeOnBlockStrength: 0

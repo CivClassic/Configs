@@ -28,3 +28,7 @@ tweaks:
       damage: 3
     WOOD_AXE:
       damage: 3
+  ProjectileTweaks:
+    tweakPearls: true
+    tweakPots: true
+    tweakAll: false
