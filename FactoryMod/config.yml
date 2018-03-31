@@ -2563,7 +2563,7 @@ recipes:
         material: STAINED_GLASS
         durability: 15
         amount: 64
-  mix_conrete_white:
+  mix_concrete_white:
     production_time: 4s
     name: Mix White Concrete
     type: PRODUCTION
@@ -2583,7 +2583,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 0
         amount: 64
-  mix_conrete_orange:
+  mix_concrete_orange:
     production_time: 4s
     name: Mix Orange Concrete
     type: PRODUCTION
@@ -2603,7 +2603,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 1
         amount: 64
-  mix_conrete_magenta:
+  mix_concrete_magenta:
     production_time: 4s
     name: Mix Magenta Concrete
     type: PRODUCTION
@@ -2623,7 +2623,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 2
         amount: 64
-  mix_conrete_light_blue:
+  mix_concrete_light_blue:
     production_time: 4s
     name: Mix Light Blue Concrete
     type: PRODUCTION
@@ -2643,7 +2643,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 3
         amount: 64
-  mix_conrete_yellow:
+  mix_concrete_yellow:
     production_time: 4s
     name: Mix Yellow Concrete
     type: PRODUCTION
@@ -2663,7 +2663,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 4
         amount: 64
-  mix_conrete_lime:
+  mix_concrete_lime:
     production_time: 4s
     name: Mix Lime Concrete
     type: PRODUCTION
@@ -2683,7 +2683,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 5
         amount: 64
-  mix_conrete_pink:
+  mix_concrete_pink:
     production_time: 4s
     name: Mix Pink Concrete
     type: PRODUCTION
@@ -2703,7 +2703,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 6
         amount: 64
-  mix_conrete_gray:
+  mix_concrete_gray:
     production_time: 4s
     name: Mix Gray Concrete
     type: PRODUCTION
@@ -2723,7 +2723,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 7
         amount: 64
-  mix_conrete_light_gray:
+  mix_concrete_light_gray:
     production_time: 4s
     name: Mix Light Gray Concrete
     type: PRODUCTION
@@ -2743,7 +2743,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 8
         amount: 64
-  mix_conrete_cyan:
+  mix_concrete_cyan:
     production_time: 4s
     name: Mix Cyan Concrete
     type: PRODUCTION
@@ -2763,7 +2763,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 9
         amount: 64
-  mix_conrete_purple:
+  mix_concrete_purple:
     production_time: 4s
     name: Mix Purple Concrete
     type: PRODUCTION
@@ -2783,7 +2783,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 10
         amount: 64
-  mix_conrete_blue:
+  mix_concrete_blue:
     production_time: 4s
     name: Mix Blue Concrete
     type: PRODUCTION
@@ -2803,7 +2803,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 11
         amount: 64
-  mix_conrete_brown:
+  mix_concrete_brown:
     production_time: 4s
     name: Mix Brown Concrete
     type: PRODUCTION
@@ -2823,7 +2823,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 12
         amount: 64
-  mix_conrete_green:
+  mix_concrete_green:
     production_time: 4s
     name: Mix Green Concrete
     type: PRODUCTION
@@ -2843,7 +2843,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 13
         amount: 64
-  mix_conrete_red:
+  mix_concrete_red:
     production_time: 4s
     name: Mix Red Concrete
     type: PRODUCTION
@@ -2863,7 +2863,7 @@ recipes:
         material: CONCRETE_POWDER
         durability: 14
         amount: 64
-  mix_conrete_black:
+  mix_concrete_black:
     production_time: 4s
     name: Mix Black Concrete
     type: PRODUCTION
