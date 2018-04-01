@@ -228,7 +228,7 @@
 #
 # Start Config
 storage:
-  type: 0
+  type: 1
   mysql:
     host: localhost
     dbname: exilepearl
