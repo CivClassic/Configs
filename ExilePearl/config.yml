@@ -299,7 +299,7 @@ rules:
   use_bucket: true
   fill_bucket: true
   milk_cows: true
-  use_potions: true
+  use_potions: false
   drink_brews: true
   fill_cauldron: true
   throw_pearl: true
@@ -318,7 +318,7 @@ rules:
   damage_bastion: false
   enter_bastion: false
   damage_reinforcement: false
-  place_snitch: true
+  place_snitch: false
   protected_mobs: []
   disallowed_worlds:
 
