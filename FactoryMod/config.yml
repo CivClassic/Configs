@@ -2573,10 +2573,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       white_dye:
         material: INK_SACK
         durability: 15
@@ -2593,10 +2593,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       orange_dye:
         material: INK_SACK
         durability: 14
@@ -2613,10 +2613,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       magenta_dye:
         material: INK_SACK
         durability: 13
@@ -2633,10 +2633,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       light_blue_dye:
         material: INK_SACK
         durability: 12
@@ -2653,10 +2653,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       yellow_dye:
         material: INK_SACK
         durability: 11
@@ -2673,10 +2673,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       lime_dye:
         material: INK_SACK
         durability: 10
@@ -2693,10 +2693,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       pink_dye:
         material: INK_SACK
         durability: 9
@@ -2713,10 +2713,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       gray_dye:
         material: INK_SACK
         durability: 8
@@ -2733,10 +2733,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       light_gray_dye:
         material: INK_SACK
         durability: 7
@@ -2753,10 +2753,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       cyan_dye:
         material: INK_SACK
         durability: 6
@@ -2773,10 +2773,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       purple_dye:
         material: INK_SACK
         durability: 5
@@ -2793,10 +2793,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       blue_dye:
         material: INK_SACK
         durability: 4
@@ -2813,10 +2813,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       brown_dye:
         material: INK_SACK
         durability: 3
@@ -2833,10 +2833,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       green_dye:
         material: INK_SACK
         durability: 2
@@ -2853,10 +2853,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       red_dye:
         material: INK_SACK
         durability: 1
@@ -2873,10 +2873,10 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 32
       gravel:
         material: GRAVEL
-        amount: 64
+        amount: 32
       black_dye:
         material: INK_SACK
         durability: 0
