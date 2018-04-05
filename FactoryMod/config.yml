@@ -4547,7 +4547,7 @@ recipes:
     factory: Compactor
   compact:
     production_time: 1s
-    fuel_consumption_intervall: 19t
+    fuel_consumption_intervall: 99999s
     name: Compact
     type: COMPACT
     input:
@@ -4560,7 +4560,7 @@ recipes:
       - BOOK
   decompact:
     production_time: 1s
-    fuel_consumption_intervall: 19t
+    fuel_consumption_intervall: 99999s
     name: Decompact
     type: DECOMPACT
     input:
