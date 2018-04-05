@@ -4823,6 +4823,7 @@ recipes:
     type: RANDOM
     name: Crack Fossil
     production_time: 1s
+    fuel_consumption_intervall: 99999s
     input:
       fossil:
         material: PRISMARINE_SHARD
