@@ -774,6 +774,7 @@ recipes:
         durability: 1
   bake_bread:
     production_time: 4s
+    fuel_consumption_intervall: 40t
     name: Bake Bread
     type: PRODUCTION
     input:
@@ -786,6 +787,7 @@ recipes:
         amount: 48
   bake_potatoes:
     production_time: 4s
+    fuel_consumption_intervall: 40t
     name: Bake Potatoes
     type: PRODUCTION
     input:
@@ -4657,24 +4659,26 @@ recipes:
     forceInclude: true
     type: PRODUCTION
     name: Bake Cookies
-    production_time: 4s
+    production_time: 32s
+    fuel_consumption_intervall: 40t
     input:
       wheat:
         material: WHEAT
-        amount: 256
+        amount: 128
       cocoa:
         material: INK_SACK
-        amount: 128
+        amount: 64
         durability: 3
     output:
       cookie:
         material: COOKIE
-        amount: 2048
+        amount: 1024
   bake_pie:
     forceInclude: true
     type: PRODUCTION
     name: Bake Pumpkin Pie
-    production_time: 4s
+    production_time: 32s
+    fuel_consumption_intervall: 40t
     input:
       sugar:
         material: SUGAR
