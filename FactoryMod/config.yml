@@ -4547,7 +4547,7 @@ recipes:
     factory: Compactor
   compact:
     production_time: 1s
-    fuel_consumption_intervall: 19t
+    fuel_consumption_intervall: 320t
     name: Compact
     type: COMPACT
     input:
@@ -4560,7 +4560,7 @@ recipes:
       - BOOK
   decompact:
     production_time: 1s
-    fuel_consumption_intervall: 19t
+    fuel_consumption_intervall: 320t
     name: Decompact
     type: DECOMPACT
     input:
@@ -4823,6 +4823,7 @@ recipes:
     type: RANDOM
     name: Crack Fossil
     production_time: 1s
+    fuel_consumption_intervall: 160t
     input:
       fossil:
         material: PRISMARINE_SHARD
