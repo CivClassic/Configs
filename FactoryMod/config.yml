@@ -2573,14 +2573,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       white_dye:
         material: INK_SACK
         durability: 15
-        amount: 4
+        amount: 1
     output:
       white_concrete:
         material: CONCRETE_POWDER
@@ -2593,14 +2593,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       orange_dye:
         material: INK_SACK
         durability: 14
-        amount: 4
+        amount: 1
     output:
       orange_concrete:
         material: CONCRETE_POWDER
@@ -2613,14 +2613,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       magenta_dye:
         material: INK_SACK
         durability: 13
-        amount: 4
+        amount: 1
     output:
       magenta_concrete:
         material: CONCRETE_POWDER
@@ -2633,14 +2633,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       light_blue_dye:
         material: INK_SACK
         durability: 12
-        amount: 4
+        amount: 1
     output:
       light_blue_concrete:
         material: CONCRETE_POWDER
@@ -2653,14 +2653,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       yellow_dye:
         material: INK_SACK
         durability: 11
-        amount: 4
+        amount: 1
     output:
       yellow_concrete:
         material: CONCRETE_POWDER
@@ -2673,14 +2673,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       lime_dye:
         material: INK_SACK
         durability: 10
-        amount: 4
+        amount: 1
     output:
       lime_concrete:
         material: CONCRETE_POWDER
@@ -2693,14 +2693,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       pink_dye:
         material: INK_SACK
         durability: 9
-        amount: 4
+        amount: 1
     output:
       pink_concrete:
         material: CONCRETE_POWDER
@@ -2713,14 +2713,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       gray_dye:
         material: INK_SACK
         durability: 8
-        amount: 4
+        amount: 1
     output:
       gray_concrete:
         material: CONCRETE_POWDER
@@ -2733,14 +2733,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       light_gray_dye:
         material: INK_SACK
         durability: 7
-        amount: 4
+        amount: 1
     output:
       light_gray_concrete:
         material: CONCRETE_POWDER
@@ -2753,14 +2753,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       cyan_dye:
         material: INK_SACK
         durability: 6
-        amount: 4
+        amount: 1
     output:
       cyan_concrete:
         material: CONCRETE_POWDER
@@ -2773,14 +2773,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       purple_dye:
         material: INK_SACK
         durability: 5
-        amount: 4
+        amount: 1
     output:
       purple_concrete:
         material: CONCRETE_POWDER
@@ -2793,14 +2793,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       blue_dye:
         material: INK_SACK
         durability: 4
-        amount: 4
+        amount: 1
     output:
       blue_concrete:
         material: CONCRETE_POWDER
@@ -2813,14 +2813,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       brown_dye:
         material: INK_SACK
         durability: 3
-        amount: 4
+        amount: 1
     output:
       brown_concrete:
         material: CONCRETE_POWDER
@@ -2833,14 +2833,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       green_dye:
         material: INK_SACK
         durability: 2
-        amount: 4
+        amount: 1
     output:
       green_concrete:
         material: CONCRETE_POWDER
@@ -2853,14 +2853,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       red_dye:
         material: INK_SACK
         durability: 1
-        amount: 4
+        amount: 1
     output:
       red_concrete:
         material: CONCRETE_POWDER
@@ -2873,14 +2873,14 @@ recipes:
     input:
       sand:
         material: SAND
-        amount: 32
+        amount: 16
       gravel:
         material: GRAVEL
-        amount: 32
+        amount: 16
       black_dye:
         material: INK_SACK
         durability: 0
-        amount: 4
+        amount: 1
     output:
       black_concrete:
         material: CONCRETE_POWDER
