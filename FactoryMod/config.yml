@@ -5415,10 +5415,14 @@ recipes:
     name: Compress Charcoal
     production_time: 4s
     input:
-      charcoal:
-        material: COAL
-        durability: 1
-        amount: 576
+      coal_block:
+        material: COAL_BLOCK
+        amount: 64
+      # This is the charcoal version
+      # charcoal:
+      #   material: COAL
+      #   durability: 1
+      #   amount: 576
     output:
       diamond:
         material: DIAMOND
