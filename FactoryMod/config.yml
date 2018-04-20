@@ -680,7 +680,7 @@ factories:
     name: Compressor
     citadelBreakReduction: 1.0
     setupcost:
-      iron_block:
+      diamond_block:
         material: DIAMOND_BLOCK
         amount: 32
       redstone_block:
@@ -1139,7 +1139,7 @@ recipes:
     name: Upgrade to Compressor
     type: UPGRADE
     input:
-      iron_block:
+      diamond_block:
         material: DIAMOND_BLOCK
         amount: 32
       redstone_block:
