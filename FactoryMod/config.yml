@@ -899,7 +899,7 @@ recipes:
         name: Dirt!
   craft_eyes_of_ender:
     production_time: 2s
-    name: Dirt!
+    name: Craft Eyes of Ender
     type: PRODUCTION
     input:
       Blaze_Powder:
