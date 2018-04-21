@@ -25,6 +25,7 @@ factories:
         amount: 1
     recipes:
      - dirt
+     - craft_eyes_of_ender
      - upgrade_to_stone_smelter
      - upgrade_to_ore_smelter
      - upgrade_to_aesthetics
@@ -896,6 +897,21 @@ recipes:
         material: DIRT
         amount: 1
         name: Dirt!
+  craft_eyes_of_ender:
+    production_time: 2s
+    name: Dirt!
+    type: PRODUCTION
+    input:
+      Blaze_Powder:
+        material: BLAZE_POWDER
+        amount: 1
+      Ender_Pearl:
+        material: ENDER_PEARL
+        amount: 1
+    output:
+      craft:
+        material: EYE_OF_ENDER
+        amount: 1
   upgrade_to_stone_smelter:
     production_time: 4s
     name: Upgrade to Basic Smelter
@@ -3277,36 +3293,6 @@ recipes:
         material: GOLD_INGOT
         amount: 32
     factory: Basic Cauldron
-  upgrade_to_intermediate_cauldron:
-    production_time: 4s
-    name: Upgrade to Intermediate Cauldron
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 96
-      gold:
-        material: GOLD_INGOT
-        amount: 64
-    factory: Intermediate Cauldron
-  upgrade_to_advanced_cauldron:
-    production_time: 4s
-    name: Upgrade to Advanced Cauldron
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 128
-      emerald block:
-        material: EMERALD_BLOCK
-        amount: 64
-      redstone:
-        material: REDSTONE
-        amount: 256
-      gold:
-        material: GOLD_INGOT
-        amount: 96
-    factory: Advanced Cauldron
   make_saddle:
     production_time: 4s
     name: Make Saddles
