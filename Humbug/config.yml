@@ -62,7 +62,7 @@ prevent_self_boat_break: true
 prevent_land_boats: true
 prevent_ender_pearl_save: true
 fix_vehicle_logout_bug: true
-fix_minecart_reenter_bug: true
+fix_minecart_reenter_bug: false
 ender_pearl_gravity: 0.03
 saturation_multiplier: 0.0
 hunger_slowdown: 0.0
