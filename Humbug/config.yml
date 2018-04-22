@@ -14,7 +14,7 @@ enderdragon: true
 joinquitkick: false
 deathannounce: false
 deathlog: true
-deathpersonal: true
+deathpersonal: false
 deathred: false
 ender_backpacks: false
 endergrief: false
