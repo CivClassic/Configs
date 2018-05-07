@@ -7,7 +7,7 @@ villager_trades: false
 anvil: true
 ender_chest: false
 ender_chests_placeable: true
-unlimitedcauldron: true
+unlimitedcauldron: false
 quartz_gravel_percentage: 0.0
 portalcreate: true
 enderdragon: true
