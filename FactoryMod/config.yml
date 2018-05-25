@@ -70,6 +70,7 @@ factories:
      - smelt_stone
      - smelt_glass
      - smelt_netherrack
+     - smelt_red_netherbrick
      - smelt_bricks
      - smelt_hard_clay
      - smelt_sandstone
@@ -1131,6 +1132,22 @@ recipes:
       netherrack:
         material: NETHERRACK
         amount: 64
+    output:
+      netherbrick:
+        material: NETHER_BRICK
+        amount: 64
+  smelt_red_netherbrick:
+    forceInclude: true
+    production_time: 4s
+    name: Smelt Red Netherbrick
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 32
+      nether_wart:
+        material: NETHER_STALK
+        amount: 32
     output:
       netherbrick:
         material: NETHER_BRICK
