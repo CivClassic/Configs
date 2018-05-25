@@ -1149,8 +1149,8 @@ recipes:
         material: NETHER_STALK
         amount: 32
     output:
-      netherbrick:
-        material: NETHER_BRICK
+      red_netherbrick:
+        material: RED_NETHER_BRICK
         amount: 64
   charcoal_from_logs:
     production_time: 4s
