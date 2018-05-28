@@ -1259,7 +1259,7 @@ recipes:
       quartz:
         material: QUARTZ_BLOCK
         amount: 64
-  aggregate_andesite
+  aggregate_andesite:
     forceInclude: true
     production_time: 4s
     name: Aggregate Andesite
@@ -1276,7 +1276,7 @@ recipes:
         material: STONE
         amount: 64
         durability: 5
-  aggregate_diorite
+  aggregate_diorite:
     forceInclude: true
     production_time: 4s
     name: Aggregate Diorite
@@ -1293,7 +1293,7 @@ recipes:
         material: STONE
         amount: 64
         durability: 3
-  aggregate_granite
+  aggregate_granite:
     forceInclude: true
     production_time: 4s
     name: Aggregate Granite
@@ -1363,7 +1363,7 @@ recipes:
       purpur:
         material: PURPUR_BLOCK
         amount: 64
-  condense_purpur_fruit
+  condense_purpur_fruit:
     forceInclude: true
     production_time: 4s
     name: Make Purpur from Fruit
