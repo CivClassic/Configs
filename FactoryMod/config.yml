@@ -113,7 +113,6 @@ factories:
      - make_red_sand
      - clean_red_sand
      - make_purpur
-     - condense_purpur_fruit
      - make_prismarine
      - make_prismarine_bricks
      - make_dark_prismarine
@@ -1376,19 +1375,6 @@ recipes:
         material: INK_SACK
         amount: 8
         durability: 5
-    output:
-      purpur:
-        material: PURPUR_BLOCK
-        amount: 64
-  condense_purpur_fruit:
-    forceInclude: true
-    production_time: 4s
-    name: Make Purpur from Fruit
-    type: PRODUCTION
-    input:
-      fruit:
-        material: CHORUS_FRUIT_POPPED
-        amount: 64
     output:
       purpur:
         material: PURPUR_BLOCK
