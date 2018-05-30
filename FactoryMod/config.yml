@@ -107,9 +107,6 @@ factories:
      - make_circle_stone_brick
      - make_mossy_cobble
      - make_quartz
-     - aggregate_andesite
-     - aggregate_diorite
-     - aggregate_granite
      - make_red_sand
      - clean_red_sand
      - make_purpur
@@ -1276,57 +1273,6 @@ recipes:
       quartz:
         material: QUARTZ_BLOCK
         amount: 64
-  aggregate_andesite:
-    forceInclude: true
-    production_time: 4s
-    name: Aggregate Andesite
-    type: PRODUCTION
-    input:
-      cobblestone:
-        material: COBBLESTONE
-        amount: 64
-      quartz:
-        material: QUARTZ_BLOCK
-        amount: 4
-    output:
-      andesite:
-        material: STONE
-        amount: 64
-        durability: 5
-  aggregate_diorite:
-    forceInclude: true
-    production_time: 4s
-    name: Aggregate Diorite
-    type: PRODUCTION
-    input:
-      cobblestone:
-        material: COBBLESTONE
-        amount: 64
-      quartz:
-        material: QUARTZ_BLOCK
-        amount: 8
-    output:
-      diorite:
-        material: STONE
-        amount: 64
-        durability: 3
-  aggregate_granite:
-    forceInclude: true
-    production_time: 4s
-    name: Aggregate Granite
-    type: PRODUCTION
-    input:
-      cobblestone:
-        material: COBBLESTONE
-        amount: 64
-      quartz:
-        material: QUARTZ_BLOCK
-        amount: 16
-    output:
-      granite:
-        material: STONE
-        amount: 64
-        durability: 1
   make_red_sand:
     production_time: 4s
     name: Make Red SAND
