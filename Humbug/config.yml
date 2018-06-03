@@ -29,7 +29,7 @@ portal_extra_wither_skele_spawn_rate: 0.0
 portal_pig_spawn_multiplier: 900000
 wither_skull_drop_rate: 40000
 ench_gold_app_edible: false
-ench_book_craftable: false
+ench_book_craftable: true
 cobble_from_lava: false
 cobble_from_lava_scan_radius: 1
 scale_protection_enchant: true
