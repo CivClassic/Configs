@@ -1285,9 +1285,10 @@ recipes:
       cobblestone:
         material: COBBLESTONE
         amount: 64
-      quartz:
-        material: QUARTZ_BLOCK
-        amount: 4
+      diorite:
+        material: STONE
+        amount: 64
+        durability: 3
     output:
       andesite:
         material: STONE
@@ -1303,8 +1304,8 @@ recipes:
         material: COBBLESTONE
         amount: 64
       quartz:
-        material: QUARTZ_BLOCK
-        amount: 8
+        material: QUARTZ
+        amount: 64
     output:
       diorite:
         material: STONE
@@ -1316,12 +1317,13 @@ recipes:
     name: Aggregate Granite
     type: PRODUCTION
     input:
-      cobblestone:
-        material: COBBLESTONE
+      diorite:
+        material: STONE
         amount: 64
+        durability: 3
       quartz:
-        material: QUARTZ_BLOCK
-        amount: 16
+        material: QUARTZ
+        amount: 64
     output:
       granite:
         material: STONE
