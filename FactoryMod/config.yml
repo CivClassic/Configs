@@ -1148,14 +1148,14 @@ recipes:
     input:
       netherrack:
         material: NETHERRACK
-        amount: 32
+        amount: 64
       nether_wart:
         material: NETHER_STALK
-        amount: 32
+        amount: 64
     output:
       red_netherbrick:
         material: RED_NETHER_BRICK
-        amount: 64
+        amount: 32
   charcoal_from_logs:
     production_time: 4s
     name: Make Charcoal from Logs
