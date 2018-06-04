@@ -1292,7 +1292,7 @@ recipes:
     output:
       andesite:
         material: STONE
-        amount: 64
+        amount: 128
         durability: 5
   aggregate_diorite:
     forceInclude: true
