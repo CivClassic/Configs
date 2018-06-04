@@ -1390,7 +1390,7 @@ recipes:
     input:
       fruit:
         material: CHORUS_FRUIT_POPPED
-        amount: 64
+        amount: 256
     output:
       purpur:
         material: PURPUR_BLOCK
