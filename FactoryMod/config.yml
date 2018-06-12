@@ -516,6 +516,8 @@ factories:
      - make_hopper
      - make_comparator
      - make_repeater
+     - make_dropper
+     - make_dispenser
      - make_gearbox
      - repair_redstone
   bastion_factory:
@@ -3461,6 +3463,44 @@ recipes:
       repeater:
         material: DIODE
         amount: 96
+  make_dropper:
+    forceinclude: true
+    production_time: 4s
+    name: Make Droppers
+    type: PRODUCTION
+    input:
+      cobblestone:
+        material: COBBLESTONE
+        amount: 256
+      redstone:
+        material: REDSTONE
+        amount: 48
+    output:
+      dropper:
+        material: DROPPER
+        amount: 64
+  make_dispenser:
+    forceinclude: true
+    production_time: 4s
+    name: Make Dispensers
+    type: PRODUCTION
+    input:
+      cobblestone:
+        material: COBBLESTONE
+        amount: 256
+      redstone:
+        material: REDSTONE
+        amount: 48
+      string:
+        material: STRING
+        amount: 128
+      sticks:
+        material: STICK
+        amount: 128
+    output:
+      dropper:
+        material: DISPENSER
+        amount: 64
   repair_redstone:
     production_time: 4s
     name: Repair Factory
