@@ -493,6 +493,7 @@ factories:
      - make_bucket
      - make_iron_trapdoor
      - make_iron_door
+     - make_cauldron
      - make_tripwire
      - make_shears
      - make_radar
@@ -3767,6 +3768,19 @@ recipes:
       iron_door:
         material: IRON_DOOR
         amount: 18
+  make_cauldron:
+    forceInclude: true
+    production_time: 4s
+    name: Make Cauldrons
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+    output:
+      cauldron:
+        material: CAULDRON
+        amount: 16
   make_tripwire:
     production_time: 4s
     name: Make Tripwire Hooks
