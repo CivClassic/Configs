@@ -6,7 +6,7 @@ default_fuel:
 default_fuel_consumption_intervall: 1s
 default_menu_factory: Dirt Factory
 default_return_rate: 0.5
-default_break_grace_period: 1000d
+default_break_grace_period: 2d
 decay_intervall: 1h
 decay_amount: 21
 default_health: 10000
