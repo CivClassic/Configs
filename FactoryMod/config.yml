@@ -4805,7 +4805,7 @@ recipes:
         amount: 12
   bind_writable_books:
     type: PRODUCTION
-    name: Bind Written Books
+    name: Bind Writable Books
     production_time: 4s
     input:
       paper:
@@ -4819,7 +4819,7 @@ recipes:
         amount: 6
     output:
       books:
-        material: BOOK
+        material: BOOK_AND_QUILL
         amount: 12
   craft_printing_plate:
     type: PRINTINGPLATE
