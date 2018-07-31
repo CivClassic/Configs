@@ -148,7 +148,7 @@ chunk-entity-limiter:
     - endermite
     - ghast
     - guardian
-    - horse
+    - horse !hasName
     - iron_golem
     - magma_cube
     - mule
