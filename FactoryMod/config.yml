@@ -418,7 +418,23 @@ factories:
      - make_mushroom_red
      - make_mushroom_stem
      - make_mushroom_pores
+     - upgrade_to_oak_sapling_lab
      - repair_bio_lab
+  oak_sapling_lab:
+    type: FCC
+    name: Oak Sapling Lab
+    citadelBreakReduction: 1.0
+    setupcost:
+      sapling:
+        material: SAPLING
+        amount: 512
+    recipes:
+     - spruce_to_oak_sapling
+     - birch_to_oak_sapling
+     - jungle_to_oak_sapling
+     - acacia_to_oak_sapling
+     - dark_oak_to_oak_sapling
+     - repair_oak_sapling_lab
   carpentry:
     type: FCC
     name: Carpentry Factory
@@ -1821,6 +1837,80 @@ recipes:
         material: SAPLING
         amount: 32
         durability: 5
+  upgrade_to_oak_sapling_lab:
+    production_time: 4s
+    name: Upgrade to Oak Sapling Lab
+    type: UPGRADE
+    input:
+      sapling:
+        material: SAPLING
+        amount: 512
+    factory: Oak Sapling Lab
+  spruce_to_oak_sapling:
+    production_time: 4s
+    name: Convert Spruce Sapling to Oak
+    type: PRODUCTION
+    input:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: 1
+    output:
+      oak_sapling:
+        material: SAPLING
+        amount: 32
+  birch_to_oak_sapling:
+    production_time: 4s
+    name: Convert Birch Sapling to Oak
+    type: PRODUCTION
+    input:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: 2
+    output:
+      oak_sapling:
+        material: SAPLING
+        amount: 32
+  jungle_to_oak_sapling:
+    production_time: 4s
+    name: Convert Jungle Sapling to Oak
+    type: PRODUCTION
+    input:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: 3
+    output:
+      oak_sapling:
+        material: SAPLING
+        amount: 32
+  acacia_to_oak_sapling:
+    production_time: 4s
+    name: Convert Acacia Sapling to Oak
+    type: PRODUCTION
+    input:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: 4
+    output:
+      oak_sapling:
+        material: SAPLING
+        amount: 32
+  dark_oak_to_oak_sapling:
+    production_time: 4s
+    name: Convert Dark Oak Sapling to Oak
+    type: PRODUCTION
+    input:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: 5
+    output:
+      oak_sapling:
+        material: SAPLING
+        amount: 32
   dye_clay_white:
     production_time: 4s
     name: Dye Clay White
@@ -3109,6 +3199,15 @@ recipes:
       Dirt!:
         material: DIRT
         amount: 8
+    health_gained: 10000
+  repair_oak_sapling_lab:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      oak_sapling:
+        material: SAPLING
+        amount: 128
     health_gained: 10000
   upgrade_to_carpentry:
     production_time: 4s
