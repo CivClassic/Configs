@@ -120,6 +120,9 @@ factories:
      - make_sea_lantern
      - make_redstone_lamp
      - pack_ice
+     - make_smooth_stone_slab
+     - make_smooth_sandstone_slab
+     - make_smooth_quartz_slab
      - repair_aesthetics
   dye_wool:
     type: FCC
@@ -434,6 +437,12 @@ factories:
      - make_bookshelves
      - make_trapdoors
      - make_wood_doors
+     - make_six_sided_oak
+     - make_six_sided_spruce
+     - make_six_sided_birch
+     - make_six_sided_jungle
+     - make_six_sided_acacia
+     - make_six_sided_dark_oak
      - make_casing
      - make_crates
      - repair_carpentry
@@ -3194,6 +3203,108 @@ recipes:
       door:
         material: WOOD_DOOR
         amount: 32
+  make_six_sided_oak:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Oak Logs
+    type: PRODUCTION
+    input:
+      oak:
+        material: LOG
+        amount: 64
+        durability: 0
+    output:
+      six_sided_oak:
+        material: LOG
+        amount: 64
+        durability: 0
+        lore:
+          - Sixsided log
+  make_six_sided_spruce:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Spruce Logs
+    type: PRODUCTION
+    input:
+      spruce:
+        material: LOG
+        amount: 64
+        durability: 1
+    output:
+      six_sided_spruce:
+        material: LOG
+        amount: 64
+        durability: 1
+        lore:
+          - Sixsided log
+  make_six_sided_birch:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Birch Logs
+    type: PRODUCTION
+    input:
+      birch:
+        material: LOG
+        amount: 64
+        durability: 2
+    output:
+      six_sided_birch:
+        material: LOG
+        amount: 64
+        durability: 2
+        lore:
+          - Sixsided log
+  make_six_sided_jungle:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Jungle Logs
+    type: PRODUCTION
+    input:
+      jungle:
+        material: LOG
+        amount: 64
+        durability: 3
+    output:
+      six_sided_jungle:
+        material: LOG
+        amount: 64
+        durability: 3
+        lore:
+          - Sixsided log
+  make_six_sided_acacia:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Acacia Logs
+    type: PRODUCTION
+    input:
+      acacia:
+        material: LOG_2
+        amount: 64
+        durability: 0
+    output:
+      six_sided_acacia:
+        material: LOG_2
+        amount: 64
+        durability: 0
+        lore:
+          - Sixsided log
+  make_six_sided_dark_oak:
+    forceInclude: true
+    production_time: 4s
+    name: Make Sixsided Dark Oak Logs
+    type: PRODUCTION
+    input:
+      dark_oak:
+        material: LOG_2
+        amount: 64
+        durability: 1
+    output:
+      six_sided_dark_oak:
+        material: LOG_2
+        amount: 64
+        durability: 1
+        lore:
+          - Sixsided log
   repair_carpentry:
     production_time: 4s
     name: Repair Factory
@@ -4775,6 +4886,54 @@ recipes:
       packed_ice:
         material: PACKED_ICE
         amount: 512
+  make_smooth_stone_slab:
+    forceInclude: true
+    type: PRODUCTION
+    name: Make Smooth Stone Slab
+    production_time: 4s
+    input:
+      stone:
+        material: STONE
+        amount: 64
+    output:
+      stone_slab:
+        material: STEP
+        amount: 64
+        durability: 0
+        lore:
+          - Smooth double slab
+  make_smooth_sandstone_slab:
+    forceInclude: true
+    type: PRODUCTION
+    name: Make Smooth Sandstone Slab
+    production_time: 4s
+    input:
+      sandstone:
+        material: SANDSTONE
+        amount: 64
+    output:
+      sandstone_slab:
+        material: STEP
+        amount: 64
+        durability: 1
+        lore:
+          - Smooth double slab
+  make_smooth_quartz_slab:
+    forceInclude: true
+    type: PRODUCTION
+    name: Make Smooth Quartz Slab
+    production_time: 4s
+    input:
+      quartz:
+        material: QUARTZ_BLOCK
+        amount: 64
+    output:
+      quartz_slab:
+        material: STEP
+        amount: 64
+        durability: 7
+        lore:
+          - Smooth double slab
   upgrade_to_printer:
     forceInclude: true
     production_time: 4s
@@ -5358,8 +5517,444 @@ recipes:
         jukebox:
           material: JUKEBOX
           amount: 1
+      llama:
+        chance: 0.00029411764
+        llama:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:llama"
+      parrot:
+        chance: 0.00029411764
+        parrot:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:parrot"
+      polarbear:
+        chance: 0.00029411764
+        polarbear:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:polar_bear"
+      donkey:
+        chance: 0.00029411764
+        donkey:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:donkey"
+      skeletonhorse:
+        chance: 0.00029411764
+        skeletonhorse:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:skeleton_horse"
+      zombiehorse:
+        chance: 0.00029411764
+        zombiehorse:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:zombie_horse"
+      endermite:
+        chance: 0.00029411764
+        endermite:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:endermite"
+      silverfish:
+        chance: 0.00029411764
+        silverfish:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:silverfish"
+      vex:
+        chance: 0.00029411764
+        vex:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:vex"
+      vindicator:
+        chance: 0.00029411764
+        vindicator:
+          material: MONSTER_EGG
+          amount: 1
+          nbt:
+            EntityTag:
+              id: "minecraft:vindication_illager"
+      city_bastion:
+        chance: 0.000037037
+        city_bastion:
+          material: BONE_BLOCK
+          name: City Bastion
+          lore:
+            - City bastions block exiled players and reinforcements
+          amount: 1
+      tealnerd_skull:
+        chance: 0.0029411764
+        tealnerd_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: TealNerd
+      iebagi_skull:
+        chance: 0.0029411764
+        iebagi_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: iebagi
+      dsclouse_skull:
+        chance: 0.0029411764
+        dsclouse_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: Dsclouse
+      ttk2_skull:
+        chance: 0.0029411764
+        ttk2_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: ttk2
+      bonkill_skull:
+        chance: 0.0029411764
+        bonkill_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: Bonkill
+      programmerdan_skull:
+        chance: 0.0029411764
+        programmerdan_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner: ProgrammerDan
+      decorative_bread_skull:
+        chance: 0.0029411764
+        decorative_bread_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: a75e3f60-2242-4429-8ece-bcde77
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM0ODdkNDU3ZjkwNjJkNzg3YTNlNmNlMWM0NjY0YmY3NDAyZWM2N2RkMTExMjU2ZjE5YjM4Y2U0ZjY3MCJ9fX0=
+      decorative_melon_skull:
+        chance: 0.0029411764
+        decorative_melon_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 21186685-3336-4dbd-8dda-493bc7
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmZWQ1MTRjM2UyMzhjYTdhYzFjOTRiODk3ZmY2NzExYjFkYmU1MDE3NGFmYzIzNWM4ZjgwZDAyOSJ9fX0=
+      decorative_pumpkin_skull:
+        chance: 0.0029411764
+        decorative_pumpkin_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 9650240d-aa92-4ceb-9cfa-676f0c
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdkN2FkMmRjYjU3ZGZhOWYwMjNkYmI5OWI2OThmYzUzMDc1YzNlOWQ2NTQ1MDYxMzlhNjQ3YWM5MDdmZGRjNSJ9fX0=
+      decorative_cup_of_tea_skull:
+        chance: 0.0029411764
+        decorative_cup_of_tea_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 2a3545d4-3ea5-4d26-9033-c28047
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhlOTRkZGQ3NjlhNWJlYTc0ODM3NmI0ZWM3MzgzZmQzNmQyNjc4OTRkN2MzYmVlMDExZThlNGY1ZmNkNyJ9fX0=
+      decorative_hamburger_skull:
+        chance: 0.0029411764
+        decorative_hamburger_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: bb7dc51c-1dce-42f4-ae93-6a7907
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZlZjFjMjVmNTE2ZjJlN2Q2Zjc2Njc0MjBlMzNhZGNmM2NkZjkzOGNiMzdmOWE0MWE4YjM1ODY5ZjU2OWIifX19
+      decorative_clock_skull:
+        chance: 0.0029411764
+        decorative_clock_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: f952235c-44a2-4f91-a6aa-0fcf36
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRlNGUyNzgzZjg1YTM5MTIyMWRkOTE2NTZiYTY4OGU3ZTQyZDE2ZjZhYmJmYmNmYWQ5Y2E1MzYxN2ZjYTYifX19
+      decorative_monitor_skull:
+        chance: 0.0029411764
+        decorative_monitor_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 6522a7fd-3649-4d2c-a6b4-3c24e5
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVjMjkyYTI0ZjU0YTdhNDM3ODUyNjY1NTJkYmE3YTE4NGY5YzUwZTBkOTRiMzM3ZDhkM2U3NmU5ZTljY2U3In19fQ==
+      decorative_pile_of_books_skull:
+        chance: 0.0029411764
+        decorative_pile_of_books_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 6e166933-a807-4a73-8a19-e44053
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFjNjNkOWI5ZmQ4NzQyZWFlYjA0YzY5MjE3MmNiOWRhNDM3ODE2OThhNTc1Y2RhYmUxYzA0ZGYxMmMzZiJ9fX0=
+      decorative_chest_skull:
+        chance: 0.0029411764
+        decorative_chest_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 148ce164-81e8-43d3-b057-4b21cf
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19
+      decorative_medicine_chest_skull:
+        chance: 0.0029411764
+        decorative_medicine_chest_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: f32f4e87-9fb0-48b0-8cc4-56eebf
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjN2RmNTJiNWU1MGJhZGI2MWZlZDcyMTJkOTc5ZTYzZmU5NGYxYmRlMDJiMjk2OGM2YjE1NmE3NzAxMjZjIn19fQ==
+      decorative_eye_skull:
+        chance: 0.0029411764
+        decorative_eye_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: f9f975e2-cdf7-411b-9323-f5db99
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNlZjg3NzcyYWZkODViNDY4ZjRjN2ZiOTU3MWUzMTQzNWVmNzY1YWQ0MTNmZTQ2MDI2MjE1MDQyM2UyMDIxIn19fQ==
+      decorative_present_skull:
+        chance: 0.0029411764
+        decorative_present_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: cc5fdd1a-60f8-40d6-b667-a197e3
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBhZmE0ZmZmZDEwODYzZTc2YzY5OGRhMmM5YzllNzk5YmNmOWFiOWFhMzdkODMxMjg4MTczNDIyNWQzY2EifX19
+      decorative_poke_ball_skull:
+        chance: 0.0029411764
+        decorative_poke_ball_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 04be8421-c832-4cf8-82e5-9b88d8
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQzZDRiN2FjMjRhMWQ2NTBkZGY3M2JkMTQwZjQ5ZmMxMmQyNzM2ZmMxNGE4ZGMyNWMwZjNmMjlkODVmOGYifX19
+      decorative_globe_skull:
+        chance: 0.0029411764
+        decorative_globe_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 10174993-9b01-4045-919c-bf82db
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
+      decorative_blaze_skull:
+        chance: 0.0029411764
+        decorative_blaze_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 7ceb88b2-7f5f-4399-abb9-706825
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+      decorative_ghast_skull:
+        chance: 0.0029411764
+        decorative_ghast_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 807f287f-6499-4e93-a887-0a298a
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19
+      decorative_pigzombie_skull:
+        chance: 0.0029411764
+        decorative_pigzombie_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 6540c046-d6ea-4aff-9766-32a54e
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==
+      decorative_enderman_skull:
+        chance: 0.0029411764
+        decorative_enderman_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 0de98464-1274-4dd6-bba8-370efa
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=
+      decorative_guardian_skull:
+        chance: 0.0029411764
+        decorative_guardian_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 2e9c0a67-92b3-4949-9be1-faf123
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMyYzI0NTI0YzgyYWIzYjNlNTdjMjA1MmM1MzNmMTNkZDhjMGJlYjhiZGQwNjM2OWJiMjU1NGRhODZjMTIzIn19fQ==
+      decorative_skull_skull:
+        chance: 0.0029411764
+        decorative_skull_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: c659cdd4-e436-4977-a6a7-d5518e
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19
+      decorative_potted_azalea_plant_skull:
+        chance: 0.0029411764
+        decorative_potted_azalea_plant_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: faec9b66-94ca-4b6f-b6cd-f9a54b
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1MjU3Yjc5OWQzOTQ2OTI3ZjJiMzI1ZDM2NmViNTEwNGE1YzM1MjE5ZWU0ZTRkMzU3MjFiZjI4YTIxMCJ9fX0=
+      decorative_potted_camellia_plant_skull:
+        chance: 0.0029411764
+        decorative_potted_camellia_plant_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: e5fdfdc7-f8a4-4a77-8d7c-17d98c
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNGMxMmJmMjYxOWNiZmM4ZjIyZGM2MmMwMjJjZTE1MTI2Y2VhM2UyMTJjMjhkOWY5NmVhMzEwYWM0YzQyIn19fQ==
+      decorative_wink_skull:
+        chance: 0.0029411764
+        decorative_wink_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 81faf4e7-33e6-4cfd-bb15-21268d8def8b
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRlYTJkNmY5MzlmZWZlZmY1ZDEyMmU2M2RkMjZmYThhNDI3ZGY5MGIyOTI4YmMxZmE4OWE4MjUyYTdlIn19fQ==
+      decorative_apple_skull:
+        chance: 0.0029411764
+        decorative_apple_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 0d5fd9c3-d044-478f-b774-d37b5f86fa2a
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJiMzViZGE1ZWJkZjEzNWY0ZTcxY2U0OTcyNmZiZWM1NzM5ZjBhZGVkZjAxYzUxOWUyYWVhN2Y1MTk1MWVhMiJ9fX0=
+      decorative_sushi_salmon_skull:
+        chance: 0.0029411764
+        decorative_sushi_salmon_skull:
+          material: SKULL_ITEM
+          durability: 3
+          amount: 1
+          nbt:
+            SkullOwner:
+              Id: 56810a43-92a9-4974-8693-48ace62881ff
+              Properties:
+                textures:
+                  - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU5ZDIyZDlhZGE2M2UyODE0MjBhZTMzNjkxODgwODY5ZmExYTE0YmZkZjg3ZDhlNTM4ZTk5OGE4ZjI5NTk1YiJ9fX0=
       dirt:
-        chance: 0.9889
+        chance: 0.894945318
         dirt:
           material: DIRT
           amount: 1
