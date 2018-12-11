@@ -24,7 +24,7 @@ factories:
         material: DIRT
         amount: 1
     recipes:
-     - dirt
+     - sand
      - craft_eyes_of_ender
      - upgrade_to_stone_smelter
      - upgrade_to_ore_smelter
@@ -70,6 +70,7 @@ factories:
     recipes:
      - smelt_stone
      - smelt_glass
+     - smelt_glass_2
      - smelt_netherrack
      - smelt_red_netherbrick
      - smelt_bricks
@@ -404,10 +405,10 @@ factories:
         material: SAPLING
         amount: 32
         durability: -1
-      Dirt!:
-        material: DIRT
+      Sand!:
+        material: SAND
         amount: 256
-        name: Dirt!
+        name: Sand!
     recipes:
      - dirt_to_grass
      - dirt_to_podzol
@@ -920,19 +921,19 @@ recipes:
         material: DIAMOND
         amount: 64
     factory: Ore Smelter
-  dirt:
+  sand:
     production_time: 2s
-    name: Dirt!
+    name: Sand!
     type: PRODUCTION
     input:
-      dirt:
-        material: DIRT
+      sand:
+        material: SAND
         amount: 1
     output:
-      dirt:
-        material: DIRT
+      sand:
+        material: SAND
         amount: 1
-        name: Dirt!
+        name: Sand!
   craft_eyes_of_ender:
     production_time: 2s
     name: Craft Eyes of Ender
@@ -1155,6 +1156,19 @@ recipes:
         material: SAND
         durability: -1
         amount: 64
+    output:
+      glass:
+        material: GLASS
+        amount: 128
+  smelt_glass_2:
+    type: PRODUCTION
+    production_time: 4s
+    name: Smelt Glass
+    input:
+      Sand!:
+        material: SAND
+        amount: 64
+        name: Sand!
     output:
       glass:
         material: GLASS
@@ -1727,10 +1741,10 @@ recipes:
         material: SAPLING
         amount: 32
         durability: -1
-      Dirt!:
-        material: DIRT
+      Sand!:
+        material: SAND
         amount: 256
-        name: Dirt!
+        name: Sand!
     factory: Bio Lab
   dirt_to_grass:
     production_time: 4s
@@ -3025,9 +3039,9 @@ recipes:
     name: Repair Factory
     type: REPAIR
     input:
-      Dirt!:
-        material: DIRT
-        name: Dirt!
+      Sand!:
+        material: SAND
+        name: Sand!
         amount: 1
     health_gained: 10000
   repair_stone_smelter:
@@ -3137,8 +3151,8 @@ recipes:
     name: Repair Factory
     type: REPAIR
     input:
-      Dirt!:
-        material: DIRT
+      Sand!:
+        material: SAND
         amount: 8
     health_gained: 10000
   upgrade_to_carpentry:
@@ -5977,12 +5991,12 @@ recipes:
               Properties:
                 textures:
                   - Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU5ZDIyZDlhZGE2M2UyODE0MjBhZTMzNjkxODgwODY5ZmExYTE0YmZkZjg3ZDhlNTM4ZTk5OGE4ZjI5NTk1YiJ9fX0=
-      dirt:
+      sand:
         chance: 0.894945318
-        dirt:
-          material: DIRT
+        sand:
+          material: SAND
           amount: 1
-          name: Dirt!
+          name: Sand!
   upgrade_to_gold_forge:
     forceinclude: true
     production_time: 4s
