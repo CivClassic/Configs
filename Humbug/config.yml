@@ -57,7 +57,7 @@ find_end_portals: world
 prevent_opening_container_carts: true
 prevent_vehicle_inventory_open: true
 disable_hopper_out_transfers: false
-horse_speed: 0.3
+horse_speed: 0
 prevent_self_boat_break: true
 prevent_land_boats: true
 prevent_ender_pearl_save: true
