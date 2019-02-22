@@ -4847,6 +4847,8 @@ recipes:
         material: HUGE_MUSHROOM_1
         durability: 10
         amount: 16
+        lore:
+          - Mushroom stem
   make_mushroom_pores:
     type: PRODUCTION
     name: Make Pore Mushroom Blocks
@@ -4859,6 +4861,8 @@ recipes:
       pore_mushroom_block:
         material: HUGE_MUSHROOM_1
         amount: 16
+        lore:
+          - Mushroom pores
   bake_cookies:
     forceInclude: true
     type: PRODUCTION
