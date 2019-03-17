@@ -1,8 +1,7 @@
 default_update_time: 1s
 default_fuel:
   charcoal:
-    material: COAL
-    durability: 1
+    material: CHARCOAL
 default_fuel_consumption_intervall: 1s
 default_menu_factory: Dirt Factory
 default_return_rate: 0.5
@@ -86,7 +85,6 @@ factories:
         amount: 512
     recipes:
      - charcoal_from_logs
-     - charcoal_from_logs_2
      - charcoal_from_coal
      - repair_charcoal_factory
   aesthetics:
@@ -132,7 +130,6 @@ factories:
         material: WHITE_WOOL
         amount: 32
     recipes:
-     - dye_wool_white
      - dye_wool_orange
      - dye_wool_magenta
      - dye_wool_light_blue
@@ -260,7 +257,7 @@ factories:
      - smelt_redstone_ore
      - smelt_lapis_ore
      - make_refractor
-     - crack_fossil
+#     - crack_fossil
      - repair_ore_smelter
   diamond_helm:
     type: FCC
@@ -406,7 +403,6 @@ factories:
      - dirt_to_grass
      - dirt_to_podzol
      - dirt_to_mycelium
-     - sapling_to_oak
      - sapling_to_spruce
      - sapling_to_birch
      - sapling_to_jungle
@@ -977,7 +973,7 @@ recipes:
     type: UPGRADE
     input:
       brick:
-        material: CLAY_BRICK
+        material: BRICKS
         amount: 64
       log:
         material: OAK_LOG
@@ -1409,7 +1405,7 @@ recipes:
     type: PRODUCTION
     input:
       stone_brick:
-        material: SMOOTH_BRICK
+        material: STONE_BRICKS
         amount: 64
       lapis:
         material: LAPIS_LAZULI
@@ -1903,7 +1899,7 @@ recipes:
       gray_clay:
         material: GRAY_TERRACOTTA
         amount: 64
-  dye_light_gray_terracotta:
+  dye_clay_light_gray:
     production_time: 4s
     name: Dye Clay Light Gray
     type: PRODUCTION
