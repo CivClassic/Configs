@@ -82,9 +82,8 @@ factories:
     citadelBreakReduction: 1.0
     setupcost:
       charcoal:
-        material: COAL
+        material: CHARCOAL
         amount: 512
-        durability: 1
     recipes:
      - charcoal_from_logs
      - charcoal_from_logs_2
@@ -228,7 +227,7 @@ factories:
     citadelBreakReduction: 1.0
     setupcost:
       brick:
-        material: CLAY_BRICK
+        material: BRICKS
         amount: 64
       oak log:
         material: OAK_LOG
@@ -1268,7 +1267,8 @@ recipes:
         material: STONE
         amount: 64
       bone meal:
-        material: BONE MEAL
+        material: BONE_MEAL
+        amount: 16
     output:
       quartz:
         material: QUARTZ_BLOCK
@@ -1416,8 +1416,7 @@ recipes:
         amount: 4
     output:
       prismarine_bricks:
-        material: PRISMARINE
-        durability: 1
+        material: PRISMARINE_BRICKS
         amount: 64
   make_dark_prismarine:
     production_time: 4s
@@ -1431,7 +1430,7 @@ recipes:
         material: LAPIS_LAZULI
         amount: 4
       ink:
-        material: INK_SACK
+        material: INK_SAC
         amount: 4
     output:
       dark_prismarine:
@@ -1793,7 +1792,7 @@ recipes:
         material: TERRACOTTA
         amount: 64
       white_dye:
-        material: Bone Meal
+        material: BONE_MEAL
         amount: 4
     output:
       white_terracotta:
@@ -1853,7 +1852,7 @@ recipes:
         material: TERRACOTTA
         amount: 64
       yellow_dye:
-        material: YELLOW_DYE
+        material: DANDELION_YELLOW
         amount: 4
     output:
       yellow_terracotta:
@@ -2045,7 +2044,7 @@ recipes:
     type: PRODUCTION
     input:
       wool:
-        material: WHTIE_WOOL
+        material: WHITE_WOOL
         amount: 64
       magenta_dye:
         material: MAGENTA_DYE
@@ -2078,7 +2077,7 @@ recipes:
         material: WHITE_WOOL
         amount: 64
       yellow_dye:
-        material: YELLOW_DYE
+        material: DANDELION_YELLOW
         amount: 4
     output:
       yellow_wool:
@@ -2315,10 +2314,10 @@ recipes:
     type: PRODUCTION
     input:
       glass:
-        material: DANDELION_YELLOW
+        material: GLASS
         amount: 64
       yellow_dye:
-        material: INK_SACK
+        material: DANDELION_YELLOW
         amount: 4
     output:
       yellow_glass:
@@ -4037,7 +4036,7 @@ recipes:
         material: CACTUS
         amount: 256
       rose:
-        material: RED_ROSE
+        material: ROSE_RED
         amount: 8
       rotten_flesh:
         material: ROTTEN_FLESH
@@ -4118,7 +4117,7 @@ recipes:
         material: CACTUS
         amount: 256
       rose:
-        material: RED_ROSE
+        material: ROSE_RED
         amount: 8
       spider_eye:
         material: SPIDER_EYE
@@ -4219,7 +4218,7 @@ recipes:
         lore:
           - Compacted Item
       rose:
-        material: RED_ROSE
+        material: ROSE_RED
         amount: 8
         lore:
           - Compacted Item
@@ -4346,7 +4345,7 @@ recipes:
         lore:
           - Compacted Item
       rose:
-        material: RED_ROSE
+        material: ROSE_RED
         amount: 8
         lore:
           - Compacted Item
@@ -4546,7 +4545,7 @@ recipes:
         amount: 64
     output:
       brown_mushroom_block:
-        material: BROWN_MUSHROOM_BLOCKS
+        material: BROWN_MUSHROOM_BLOCK
         amount: 16
   make_mushroom_red:
     type: PRODUCTION
@@ -4558,7 +4557,7 @@ recipes:
         amount: 64
     output:
       red_mushroom_block:
-        material: RED_MUSHROOM_BLOCKS
+        material: RED_MUSHROOM_BLOCK
         amount: 16
   make_mushroom_stem:
     type: PRODUCTION
@@ -4584,7 +4583,7 @@ recipes:
         amount: 64
     output:
       pore_mushroom_block:
-        material: BROWN_MUSHROOM_BLOCKS
+        material: BROWN_MUSHROOM_BLOCK
         amount: 16
         lore:
           - Mushroom pores
