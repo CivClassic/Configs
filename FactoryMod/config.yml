@@ -5737,7 +5737,7 @@ recipes:
       ub3_eff4:
         chance: 0.20000000000000000
         ub3_eff4:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5749,7 +5749,7 @@ recipes:
       ub3_for3:
         chance: 0.15000000000000000
         ub3_for3:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5761,7 +5761,7 @@ recipes:
       ub3_silk:
         chance: 0.15000000000000000
         ub3_silk:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5773,7 +5773,7 @@ recipes:
       ub3:
         chance: 0.10000000000000000
         ub3:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5782,7 +5782,7 @@ recipes:
       ub3_for3_eff4:
         chance: 0.10000000000000000
         ub3_for3_eff4:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5797,7 +5797,7 @@ recipes:
       ub3_silk_eff4:
         chance: 0.10000000000000000
         ub3_silk_eff4:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5812,7 +5812,7 @@ recipes:
       ub3_eff5:
         chance: 0.10000000000000000
         ub3_eff5:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5827,7 +5827,7 @@ recipes:
       ub3_for3_eff5:
         chance: 0.050000000000000000
         ub3_for3_eff5:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5842,7 +5842,7 @@ recipes:
       ub3_silk_eff5:
         chance: 0.050000000000000000
         ub3_silk_eff5:
-          material: GOLD_PICKAXE
+          material: GOLDEN_PICKAXE
           amount: 1
           enchants:
             ub:
@@ -5866,7 +5866,7 @@ recipes:
       ub3_eff4:
         chance: 0.20000000000000000
         ub3_eff4:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5878,7 +5878,7 @@ recipes:
       ub3_for3:
         chance: 0.15000000000000000
         ub3_for3:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5890,7 +5890,7 @@ recipes:
       ub3_silk:
         chance: 0.15000000000000000
         ub3_silk:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5902,7 +5902,7 @@ recipes:
       ub3:
         chance: 0.10000000000000000
         ub3:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5911,7 +5911,7 @@ recipes:
       ub3_for3_eff4:
         chance: 0.10000000000000000
         ub3_for3_eff4:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5926,7 +5926,7 @@ recipes:
       ub3_silk_eff4:
         chance: 0.10000000000000000
         ub3_silk_eff4:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5941,7 +5941,7 @@ recipes:
       ub3_eff5:
         chance: 0.10000000000000000
         ub3_eff5:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5956,7 +5956,7 @@ recipes:
       ub3_for3_eff5:
         chance: 0.050000000000000000
         ub3_for3_eff5:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5971,7 +5971,7 @@ recipes:
       ub3_silk_eff5:
         chance: 0.050000000000000000
         ub3_silk_eff5:
-          material: GOLD_SHOVEL
+          material: GOLDEN_SHOVEL
           amount: 1
           enchants:
             ub:
@@ -5995,7 +5995,7 @@ recipes:
       ub3_eff4:
         chance: 0.16000000000000000
         ub3_eff4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6007,7 +6007,7 @@ recipes:
       ub3_for3:
         chance: 0.07000000000000000
         ub3_for3:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6019,7 +6019,7 @@ recipes:
       ub3_silk:
         chance: 0.07000000000000000
         ub3_silk:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6031,7 +6031,7 @@ recipes:
       ub3_sha4:
         chance: 0.07000000000000000
         ub3_sha4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6043,7 +6043,7 @@ recipes:
       ub3_boa4:
         chance: 0.07000000000000000
         ub3_boa4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6055,7 +6055,7 @@ recipes:
       ub3_smi4:
         chance: 0.06000000000000000
         ub3_smi4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6067,7 +6067,7 @@ recipes:
       ub3:
         chance: 0.050000000000000000
         ub3:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6076,7 +6076,7 @@ recipes:
       ub3_for3_eff4:
         chance: 0.050000000000000000
         ub3_for3_eff4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6091,7 +6091,7 @@ recipes:
       ub3_silk_eff4:
         chance: 0.050000000000000000
         ub3_silk_eff4:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6106,7 +6106,7 @@ recipes:
       ub3_eff5:
         chance: 0.050000000000000000
         ub3_eff5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6121,7 +6121,7 @@ recipes:
       ub3_for3_eff5:
         chance: 0.0500000000000000
         ub3_for3_eff5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6136,7 +6136,7 @@ recipes:
       ub3_silk_eff5:
         chance: 0.0500000000000000
         ub3_silk_eff5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6151,7 +6151,7 @@ recipes:
       ub3_sha5:
         chance: 0.0300000000000000
         ub3_sha5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6163,7 +6163,7 @@ recipes:
       ub3_boa5:
         chance: 0.0300000000000000
         ub3_boa5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6175,7 +6175,7 @@ recipes:
       ub3_smi5:
         chance: 0.0300000000000000
         ub3_smi5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6187,7 +6187,7 @@ recipes:
       ub3_eff4_sha5:
         chance: 0.0400000000000000
         ub3_eff4_sha5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6202,7 +6202,7 @@ recipes:
       ub3_eff4_boa5:
         chance: 0.0400000000000000
         ub3_eff4_boa5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6217,7 +6217,7 @@ recipes:
       ub3_eff4_smi5:
         chance: 0.0300000000000000
         ub3_eff4_smi5:
-          material: GOLD_AXE
+          material: GOLDEN_AXE
           amount: 1
           enchants:
             ub:
@@ -6241,7 +6241,7 @@ recipes:
       ub3:
         chance: 0.90000000000000000
         ub3:
-          material: GOLD_HOE
+          material: GOLDEN_HOE
           amount: 1
           enchants:
             ub:
@@ -6250,7 +6250,7 @@ recipes:
       ub4:
         chance: 0.10000000000000000
         ub4:
-          material: GOLD_HOE
+          material: GOLDEN_HOE
           amount: 1
           enchants:
             ub:
@@ -6268,7 +6268,7 @@ recipes:
       ub3_sha4:
         chance: 0.1000000000000000
         ub3_sha4:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6280,7 +6280,7 @@ recipes:
       ub3_boa4:
         chance: 0.1000000000000000
         ub3_boa4:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6292,7 +6292,7 @@ recipes:
       ub3_smi4:
         chance: 0.1000000000000000
         ub3_smi4:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6304,7 +6304,7 @@ recipes:
       ub3_fa3:
         chance: 0.1000000000000000
         ub3_smi4:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6316,7 +6316,7 @@ recipes:
       ub3_sha5:
         chance: 0.1000000000000000
         ub3_sha5:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6328,7 +6328,7 @@ recipes:
       ub3_boa5:
         chance: 0.1000000000000000
         ub3_boa5:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6340,7 +6340,7 @@ recipes:
       ub3_smi5:
         chance: 0.1000000000000000
         ub3_smi5:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6352,7 +6352,7 @@ recipes:
       ub3_swe3:
         chance: 0.0700000000000000
         ub3_swe3:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6364,7 +6364,7 @@ recipes:
       ub3_swe3_sha5:
         chance: 0.0300000000000000
         ub3_swe3_sha5:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6379,7 +6379,7 @@ recipes:
       ub3_kb2:
         chance: 0.0700000000000000
         ub3_kb2:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6391,7 +6391,7 @@ recipes:
       ub3_kb2_sha5:
         chance: 0.0300000000000000
         ub3_kb2_sha5:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6406,7 +6406,7 @@ recipes:
       ub3_loo3:
         chance: 0.1000000000000000
         ub3_loo3:
-          material: GOLD_SWORD
+          material: GOLDEN_SWORD
           amount: 1
           enchants:
             ub:
@@ -6430,7 +6430,7 @@ recipes:
       ub3_prot4:
         chance: 0.2000000000000000
         ub3_prot4:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6442,7 +6442,7 @@ recipes:
       ub3_proj4:
         chance: 0.1000000000000000
         ub3_proj4:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6454,7 +6454,7 @@ recipes:
       ub3_fire4:
         chance: 0.1000000000000000
         ub3_fire4:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6466,7 +6466,7 @@ recipes:
       ub3_blast4:
         chance: 0.1000000000000000
         ub3_blast4:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6478,7 +6478,7 @@ recipes:
       ub3_aqaf:
         chance: 0.1000000000000000
         ub3_aqaf:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6490,7 +6490,7 @@ recipes:
       ub3_resp3:
         chance: 0.1000000000000000
         ub3_resp3:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6502,7 +6502,7 @@ recipes:
       ub3_tho3:
         chance: 0.1000000000000000
         ub3_tho3:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6514,7 +6514,7 @@ recipes:
       ub3_prot4_aqaf:
         chance: 0.0700000000000000
         ub3_prot4_aqaf:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6529,7 +6529,7 @@ recipes:
       ub3_prot4_resp3:
         chance: 0.0700000000000000
         ub3_prot4_resp3:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6544,7 +6544,7 @@ recipes:
       ub3_prot4_aqaf_resp3:
         chance: 0.0600000000000000
         ub3_prot4_aqaf_resp3:
-          material: GOLD_HELMET
+          material: GOLDEN_HELMET
           amount: 1
           enchants:
             ub:
@@ -6574,7 +6574,7 @@ recipes:
       ub3_prot4:
         chance: 0.3000000000000000
         ub3_prot4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6586,7 +6586,7 @@ recipes:
       ub3_proj4:
         chance: 0.1000000000000000
         ub3_proj4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6598,7 +6598,7 @@ recipes:
       ub3_proj4_prot4:
         chance: 0.0750000000000000
         ub3_proj4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6613,7 +6613,7 @@ recipes:
       ub3_fire4:
         chance: 0.1000000000000000
         ub3_fire4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6625,7 +6625,7 @@ recipes:
       ub3_fire4_prot4:
         chance: 0.0750000000000000
         ub3_fire4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6640,7 +6640,7 @@ recipes:
       ub3_blast4:
         chance: 0.1000000000000000
         ub3_blast4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6652,7 +6652,7 @@ recipes:
       ub3_blast4_prot4:
         chance: 0.0750000000000000
         ub3_blast4:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6667,7 +6667,7 @@ recipes:
       ub3_tho3:
         chance: 0.1000000000000000
         ub3_tho3:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6679,7 +6679,7 @@ recipes:
       ub3_tho3_prot4:
         chance: 0.0750000000000000
         ub3_tho3:
-          material: GOLD_CHESTPLATE
+          material: GOLDEN_CHESTPLATE
           amount: 1
           enchants:
             ub:
@@ -6706,7 +6706,7 @@ recipes:
       ub3_prot4:
         chance: 0.3000000000000000
         ub3_prot4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6718,7 +6718,7 @@ recipes:
       ub3_proj4:
         chance: 0.1000000000000000
         ub3_proj4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6730,7 +6730,7 @@ recipes:
       ub3_proj4_prot4:
         chance: 0.0750000000000000
         ub3_proj4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6745,7 +6745,7 @@ recipes:
       ub3_fire4:
         chance: 0.1000000000000000
         ub3_fire4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6757,7 +6757,7 @@ recipes:
       ub3_fire4_prot4:
         chance: 0.0750000000000000
         ub3_fire4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6772,7 +6772,7 @@ recipes:
       ub3_blast4:
         chance: 0.1000000000000000
         ub3_blast4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6784,7 +6784,7 @@ recipes:
       ub3_blast4_prot4:
         chance: 0.0750000000000000
         ub3_blast4:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6799,7 +6799,7 @@ recipes:
       ub3_tho3:
         chance: 0.1000000000000000
         ub3_tho3:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6811,7 +6811,7 @@ recipes:
       ub3_tho3_prot4:
         chance: 0.0750000000000000
         ub3_tho3:
-          material: GOLD_LEGGINGS
+          material: GOLDEN_LEGGINGS
           amount: 1
           enchants:
             ub:
@@ -6838,7 +6838,7 @@ recipes:
       ub3_prot4:
         chance: 0.2000000000000000
         ub3_prot4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6850,7 +6850,7 @@ recipes:
       ub3_proj4:
         chance: 0.1000000000000000
         ub3_proj4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6862,7 +6862,7 @@ recipes:
       ub3_fire4:
         chance: 0.1000000000000000
         ub3_fire4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6874,7 +6874,7 @@ recipes:
       ub3_blast4:
         chance: 0.1000000000000000
         ub3_blast4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6886,7 +6886,7 @@ recipes:
       ub3_ff4:
         chance: 0.1000000000000000
         ub3_ff4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6898,7 +6898,7 @@ recipes:
       ub3_ds3:
         chance: 0.1000000000000000
         ub3_ds3:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6910,7 +6910,7 @@ recipes:
       ub3_tho3:
         chance: 0.1000000000000000
         ub3_tho3:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6922,7 +6922,7 @@ recipes:
       ub3_prot4_ff4:
         chance: 0.0700000000000000
         ub3_prot4_ff4:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6937,7 +6937,7 @@ recipes:
       ub3_prot4_ds3:
         chance: 0.0700000000000000
         ub3_prot4_ds3:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
@@ -6952,7 +6952,7 @@ recipes:
       ub3_prot4_ff4_ds3:
         chance: 0.0600000000000000
         ub3_prot4_ff4_ds3:
-          material: GOLD_BOOTS
+          material: GOLDEN_BOOTS
           amount: 1
           enchants:
             ub:
