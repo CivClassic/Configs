@@ -258,22 +258,7 @@ factories:
      - smelt_lapis_ore
      - make_refractor
 #     - crack_fossil
-     - upgrade_to_industrial_ore_refinery
      - repair_ore_smelter
-  industrial_ore_refinery:
-    type: FCCUPGRADE
-    name: Industrial Ore Refinery
-    citadelBreakReduction: 1.0
-    recipes:
-     - smelt_coal_ore_adv
-     - smelt_iron_ore_adv
-     - smelt_diamond_ore_adv
-     - smelt_gold_ore_adv
-     - smelt_redstone_ore_adv
-     - smelt_lapis_ore_adv
-     - make_refractor
-#     - crack_fossil
-     - repair_industrial_ore_refinery
   diamond_helm:
     type: FCC
     name: Diamond Helmet Smith
