@@ -3645,11 +3645,11 @@ recipes:
     input:
       iron:
         material: IRON_INGOT
-        amount: 64
+        amount: 10
     output:
       cauldron:
         material: CAULDRON
-        amount: 16
+        amount: 32
   make_tripwire:
     production_time: 4s
     name: Make Tripwire Hooks
