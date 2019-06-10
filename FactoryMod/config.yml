@@ -3638,7 +3638,7 @@ recipes:
       iron_door:
         material: IRON_DOOR
         amount: 18
-          make_cauldron:
+  make_cauldron:
     production_time: 4s
     name: Make Cauldrons
     type: PRODUCTION
