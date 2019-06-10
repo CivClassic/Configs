@@ -877,7 +877,7 @@ recipes:
     input:
       redstone_ore:
         material: REDSTONE_ORE
-        amount: 64
+        amount: 32
     output:
       redstone:
         material: REDSTONE_BLOCK
