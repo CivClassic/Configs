@@ -889,12 +889,12 @@ recipes:
     input:
       lapis_ore:
         material: LAPIS_ORE
-        amount: 32
+        amount: 64
     output:
       lapis:
         material: LAPIS_BLOCK
         amount: 48
-          upgrade_to_ore_smelter:
+  upgrade_to_ore_smelter:
     production_time: 30s
     name: Upgrade to Ore Smelter
     type: UPGRADE
