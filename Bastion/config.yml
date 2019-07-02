@@ -27,7 +27,7 @@ bastions:
     effectRadius: 10
     includeY: true
     startScaleFactor: 10
-    finalScaleFactor: 0.95
+    finalScaleFactor: 1.00
     warmupTime: 172800000
     erosionPerDay: 0
     regenPerDay: 5
@@ -63,7 +63,7 @@ bastions:
     effectRadius: 50
     includeY: true
     startScaleFactor: 10
-    finalScaleFactor: 0.95
+    finalScaleFactor: 1.00
     warmupTime: 172800000
     erosionPerDay: 0
     regenPerDay: 5
