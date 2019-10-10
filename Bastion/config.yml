@@ -28,7 +28,7 @@ bastions:
     includeY: true
     startScaleFactor: 10
     finalScaleFactor: 1.00
-    warmupTime: 172800000
+    warmupTime: 345600000
     erosionPerDay: 0
     regenPerDay: 5
     blocksToErode: -1
